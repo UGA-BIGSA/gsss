@@ -109,6 +109,87 @@ no anxiety
 little anxiety
 lots of anxiety
 
+[[PageBreak]]
+
+[[Question:MC]]
+I am aware of departmental procedure for reporting harassment and discrimination.
+[[Choices]]
+Yes, and I would feel comfortable using them
+Yes, but I wouldn't feel comfortable using them
+No
+Unsure
+
+[[Question:Matrix]]
+I would feel comfortable with reporting an incident of harassment and/or discrimination to:
+[[Choices]]
+My PI
+My committee
+The Director of IOB
+The IOB Graduate Coordinator
+Other PIs in IOB
+IOB staff
+Other graduate students
+[[Answers]]
+1 - Not comfortable at all
+2
+3
+4
+5 - Very comfortable
+
+[[PageBreak]]
+
+[[Question:Text]]
+UGA defines discrimination as:
+Decision-making based on race, color, sex (including pregnancy), sexual orientation, gender identity, ethnicity or national origin, religion, age, genetic information, disability, or veteran status.
+(https://eoo.uga.edu/policies/non-discrimination-anti-harassment-policy)
+ 
+If you have experienced harassment or discrimination in IOB please consider reporting this to your PI, one of your committee members, or the graduate coordinator. See IOB reporting procedure <a href=https://iob.uga.edu/diversity/#.ZD8CJOzMKBQ>here</a>.
+
+If you have experienced harassment or discrimination at UGA and do not want to report using departmental procedure please consider contacting the UGA Compliance, Ethics and Reporting hotline <a href=https://legal.uga.edu/guidance/compliance-ethics-reporting-hotline>here</a>.
+
+If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
+
+If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
+
+[[Question:Matrix]]
+In the last year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
+[[Choices]]
+Race/Ethnicity
+Gender
+Sexual orientation
+Religion
+Age
+Accent/dialect
+National origin
+Disability
+Socioeconomic/income level
+Veteran status
+[[Answers]]
+Never
+Rarely
+Sometimes
+Often
+
+[[PageBreak]]
+
+[[Question:Matrix]]
+In the last year, how satisfied have you been with each of the following aspects of your degree program?
+[[Choices]]
+Quality of graduate coursework
+Professional relationship with dissertation advisor
+Departmental career development opportunities
+Level of financial support through grant funding
+Communication within IOB
+Stipend covering living expenses
+Infrastructure (Sapelo2, accessibility to equipment, etc)
+Interpersonal relationships with peers in IOB
+[[Answers]]
+Dissatisfied
+Slightly dissatisfied
+No opinion
+Slightly satisfied
+Satisfied
+
 [[Block:Mentoring]]
 
 [[Block:Education/Coursework]]
