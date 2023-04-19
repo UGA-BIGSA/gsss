@@ -109,6 +109,24 @@ no anxiety
 little anxiety
 lots of anxiety
 
+[[Question:Matrix]]
+In the last year, how satisfied have you been with each of the following aspects of your degree program?
+[[Choices]]
+Quality of graduate coursework
+Professional relationship with dissertation advisor
+Departmental career development opportunities
+Level of financial support through grant funding
+Communication within IOB
+Stipend covering living expenses
+Infrastructure (Sapelo2, accessibility to equipment, etc)
+Interpersonal relationships with peers in IOB
+[[Answers]]
+Dissatisfied
+Slightly dissatisfied
+No opinion
+Slightly satisfied
+Satisfied
+
 [[PageBreak]]
 
 [[Question:MC]]
@@ -124,8 +142,8 @@ I would feel comfortable with reporting an incident of harassment and/or discrim
 [[Choices]]
 My PI
 My committee
-The Director of IOB
-The IOB Graduate Coordinator
+The director of IOB
+Faculty graduate coordinator
 Other PIs in IOB
 IOB staff
 Other graduate students
@@ -172,29 +190,231 @@ Often
 
 [[PageBreak]]
 
-[[Question:Matrix]]
-In the last year, how satisfied have you been with each of the following aspects of your degree program?
+[[Question:MC:SingleAnswer:Horizontal]]
+If you could go back in time, how likely would you be to join IOB again?
 [[Choices]]
-Quality of graduate coursework
-Professional relationship with dissertation advisor
-Departmental career development opportunities
-Level of financial support through grant funding
-Communication within IOB
-Stipend covering living expenses
-Infrastructure (Sapelo2, accessibility to equipment, etc)
-Interpersonal relationships with peers in IOB
+Very unlikely
+Unlikely
+Likely
+Very likely
+
+[[Question:MC:SingleAnswer:Horizontal]]
+If you could go back in time, how likely would you be to join the UGA graduate program through IOB again?
+[[Choices]]
+Very unlikely
+Unlikely
+Likely
+Very likely
+
+[[Question:MC:SingleAnswer:Horizontal]]
+If you could go back in time, how likely would you be to join the same lab?
+[[Choices]]
+Very unlikely
+Unlikely
+Likely
+Very likely
+
+[[Question:Matrix]]
+Please rate your satisfaction with the following aspects of your lab:
+[[Choices]]
+Relationship with PI
+Relationship with other members of the lab
+Lab culture and dynamics
+Funding
+Research topic
+Day-to-day research experience
+Communication and expectations
+Personal/career development opportunities
+Support for classes and writing
+Other (specify below)
 [[Answers]]
-Dissatisfied
-Slightly dissatisfied
-No opinion
-Slightly satisfied
+Extremely unsatisfied
+Very unsatisfied
+Unsatisfied
+Neutral
 Satisfied
+Very satisfied
+Extremely satisfied
+
+[[Question:TE]]
+
+[[Question:Matrix]]
+How satisfied are you with the following aspects of IOB at UGA?
+[[Choices]]
+Graduate school experience
+Living in Athens
+IOB program (compared to bioinformatics programs at other universities)
+IOB program (compared to other UGA departments)
+IOB coursework
+Interactions with students and faculty
+Other (specify below)
+[[Answers]]
+Extremely unsatisfied
+Very unsatisfied
+Unsatisfied
+Neutral
+Satisfied
+Very satisfied
+Extremely satisfied
+
+[[Question:TE]]
+
+[[PageBreak]]
+
+[[Question:Matrix]]
+Please rate your agreement with the following statements about your progress toward degree completion.
+[[Choices]]
+I am aware of the requirements of the PhD program to graduate
+I feel confident I will graduate
+I have a timeline for my graduation
+I will be prepared for a career when I receive my degree
+I am confident that my career prospects are good
+I have seriously considered leaving the program
+I am stressed about not having an anticipated graduation date.
+[[Answers]]
+N/A
+Disagree
+Somewhat disagree
+Somewhat agree
+Agree
+
+[[Question:TE]]
+If you have feedback about your general satisfaction about your degree program with IOB, or anything IOB could do to improve your experience, please share it below. 
+
+[[Question:Matrix]]
+How often do you make use of the following resources when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
+[[Choices]]
+Fellow graduate students
+Advisor/PI
+IOB staff
+Faculty Graduate Coordinator
+Other faculty
+Course materials (eg BINF 8001)
+UGA websites (graduate school, health center, others)
+General internet search
+IOB website/student handbook
+Other (specify below)
+
+[[Question:TE]]
 
 [[Block:Mentoring]]
 
+[[Question:MC]]
+In the last year, how frequently have you interacted with your research advisor in a meaningful way?
+[[Choices]]
+Two or more times per week
+Weekly
+A few times a month
+A few times a semester
+Only a couple times this year
+
+[[Question:Matrix]]
+Please rate your research advisor regarding the following aspects of the PhD program in the past year.
+[[Choices]]
+Research project development
+Career development and networking
+Work-life balance
+[[Answers]]
+Unhelpful
+Somewhat helpful
+Helpful
+
+[[Question:Matrix]]
+Please rate your agreement with the following statements based on your interactions with your PI in the past year.
+[[Choices]]
+I have a good relationship with my advisor.
+I do not feel valued / respected by my advisor.
+My advisor respects my cultural/ethnic/socioeconomic background.
+My advisor is an asset to my academic and professional career.
+My advisor does not support my career goals.
+My advisor and I can come to a mutual agreement on goals for my project(s) and milestones for my progress.
+My advisor communicates clear expectations for things to accomplish before our next meeting.
+My advisor's expectations are unreasonable.
+My advisor acknowledges my frustration when I struggle with my research.
+My advisor takes time for me.
+My advisor and I meet frequently enough.
+My advisor encourages me in developing independent thinking.
+My advisor gives me autonomy over my research.
+My advisor positively impacts my mental and emotional well-being.
+If I were experiencing mental health challenges, I would feel comfortable asking my adviser for time off.
+My advisor intimidates me.
+[[Answers]]
+Prefer not to answer
+Disagree
+Somewhat disagree
+Somewhat agree
+Agree
+
+[[Question:TE]]
+If you have feedback about the mentorship you have received from your PI during your graduate program, please share it below.
+
+[[Question:Matrix]]
+Your most recent committee meeting was valuable for...
+[[Choices]]
+Research Development
+Career Development
+Presentation Skills
+Resolving conflict or disagreement with my advisor
+[[Answers]]
+N/A
+Disagree
+Somewhat disagree
+Somewhat agree
+Agree
+
+[[Question:Matrix]]
+Your most recent committee meeting was valuable for...
+[[Choices]]
+Committee Meeting Checklist
+Pre-meeting evaluation discussion
+Suggested presentation outline
+Committee feedback form (filled out by committee chair)
+[[Answers]]
+N/A
+Disagree
+Somewhat disagree
+Somewhat agree
+Agree
+
+[[Question:TE]]
+If you have feedback about how the department could improve committee meetings or degree expectations, please share it below.
+
 [[Block:Education/Coursework]]
 
+[[Question:MC]]
+Have you completed an IOB course in the past two years?
+[[Choies]]
+Yes
+No
+
+[[Question:MC]]
+Are there elective courses relevant to your focus/projects?
+[[Choices]]
+Yes
+No
+Unsure
+
+[[Question:Matrix]]
+Please rate your agreement with the following statements:
+[[Choices]]
+The IOB core curriculum has challenged me to think critically about bioinformatics.
+The IOB core curriculum included enough background in biology.
+The IOB core curriculum included enough background in computer science.
+The skills I learned in IOB classes prepared me for my current research.
+The skills I learned in IOB classes prepared me for my future career.
+[[Answers]]
+N/A
+Disagree
+Somewhat disagree
+Somewhat agree
+Agree
+
+[[Question:TE]]
+If you have additional feedback about the IOB curriculum, please share it here.
+
 [[Block:Communication and Community]]
+
+
 
 [[Block:Career Development]]
 
