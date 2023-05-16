@@ -37,8 +37,26 @@ Are you an international student?
 [[Choices]]
 Yes
 No
+Prefer not to answer
+
+[[Question:MC]]
+Is English your native language?
+[[Choices]]
+Yes
+No
+Prefer not to answer
 
 [[Block: Recruitment]]
+
+[[Question:MC]]
+How were you recruited/admitted to IOB?
+[[Choices]]
+Through ILS
+Through IPS
+Direct admission
+Other (specify below) 
+
+[[Question:TE]]
 
 [[Question:Matrix]]
 How well were program expectations (eg registration, class requirements, etc) explained to you by the department?
@@ -56,19 +74,23 @@ After joining
 Why did you join the Institute of Bioinformatics?
 [[Choices]]
 My PI suggested it
-Specifically wanted Bioinformatics degree
-Course requirements/milestone timeline
+Expected degree for my future career
+Course requirements
+Milestone timeline (eg graduation, comprehensive exams)
+Comprehensive exam format
 Reccomendation from current students/faculty
 General department/community
 Other (specify below) 
 
 [[Question:TE]]
 
+#? when did you find IOB
+
 [[Question:MC]]
 When did you discover the lab you ended up joining?
 [[Choices]]
 Before applying to UGA
-During ILS Recruitment
+During ILS/IPS Recruitment
 During fall welcome events
 During rotations
 After interview invitation, but not at a specific events
@@ -76,38 +98,29 @@ Other (specify below)
 
 [[Question:TE]]
 
-[[Question:MC]]
-When did you decide to rotate in the lab you ended up joining?
-[[Choices]]
-During ILS Recruitment
-Between recruitment and starting the semester
-During fall welcome events
-During rotations
-Other (specify below)
-
-[[Question:TE]]
-
 [[Block:Overall Satisfaction]]
 
 [[Question:Matrix]]
-Which (if any) has caused you anxiety since beginning the graduate program?
+How often has each of these caused you distress in the past year?
 [[Choices]]
-Maintaining work-life balance
+Work-life balance
 Career path
-Financial issues
+Personal financial issues
 Grant funding
 Availability of desired career positions
 Uncertainty about value of degree
 Transitioning to future career
-Maintaining physical health
-Maintaining mental health
+Physical health
+Mental health
 Political landscape
 Imposter syndrome
+Missing home/Culture shock
 Other
 [[Answers]]
-no anxiety
-little anxiety
-lots of anxiety
+Never
+Rarely
+Sometimes
+Often
 
 [[Question:Matrix]]
 In the last year, how satisfied have you been with each of the following aspects of your degree program?
@@ -118,8 +131,9 @@ Departmental career development opportunities
 Level of financial support through grant funding
 Communication within IOB
 Stipend covering living expenses
-Infrastructure (Sapelo2, accessibility to equipment, etc)
+Infrastructure (Sapelo2, accessibility to space, equipment, etc)
 Interpersonal relationships with peers in IOB
+Other (specify below)
 [[Answers]]
 Dissatisfied
 Slightly dissatisfied
@@ -127,10 +141,12 @@ No opinion
 Slightly satisfied
 Satisfied
 
+[[Question:TE]]
+
 [[PageBreak]]
 
 [[Question:MC]]
-I am aware of departmental procedure for reporting harassment and discrimination.
+I am aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct.
 [[Choices]]
 Yes, and I would feel comfortable using them
 Yes, but I wouldn't feel comfortable using them
@@ -138,7 +154,7 @@ No
 Unsure
 
 [[Question:Matrix]]
-I would feel comfortable with reporting an incident of harassment and/or discrimination to:
+I would feel comfortable with reporting an incident of harassment, discrimination, or other forms of unethical conduct to:
 [[Choices]]
 My PI
 My committee
@@ -166,7 +182,7 @@ If you have experienced harassment or discrimination in IOB please consider repo
 If you have experienced harassment or discrimination at UGA and do not want to report using departmental procedure please consider contacting the UGA Compliance, Ethics and Reporting hotline <a href=https://legal.uga.edu/guidance/compliance-ethics-reporting-hotline>here</a>.
 
 If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
-
+#? follow up ^
 If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
 
 [[Question:Matrix]]
@@ -191,7 +207,7 @@ Often
 [[PageBreak]]
 
 [[Question:MC:SingleAnswer:Horizontal]]
-If you could go back in time, how likely would you be to join IOB again?
+Knowing what you know now, how likely would you be to join IOB again?
 [[Choices]]
 Very unlikely
 Unlikely
@@ -199,7 +215,7 @@ Likely
 Very likely
 
 [[Question:MC:SingleAnswer:Horizontal]]
-If you could go back in time, how likely would you be to join the UGA graduate program through IOB again?
+Knowing what you know now, how likely would you be to join a UGA graduate program again?
 [[Choices]]
 Very unlikely
 Unlikely
@@ -207,7 +223,7 @@ Likely
 Very likely
 
 [[Question:MC:SingleAnswer:Horizontal]]
-If you could go back in time, how likely would you be to join the same lab?
+Knowing what you know now, how likely would you be to join the same lab?
 [[Choices]]
 Very unlikely
 Unlikely
@@ -224,8 +240,12 @@ Funding
 Research topic
 Day-to-day research experience
 Communication and expectations
-Personal/career development opportunities
-Support for classes and writing
+Conferences, travel, and networking opportunities
+Training opportunities (internships, workshops, etc)
+Time for coursework and degree requirements (proposal writing, etc)
+Time for outreach activities and student organizations
+Access to equipment, software, and other resources
+Lab/office space
 Other (specify below)
 [[Answers]]
 Extremely unsatisfied
@@ -235,7 +255,7 @@ Neutral
 Satisfied
 Very satisfied
 Extremely satisfied
-
+#? standardize the ratings
 [[Question:TE]]
 
 [[Question:Matrix]]
@@ -243,8 +263,8 @@ How satisfied are you with the following aspects of IOB at UGA?
 [[Choices]]
 Graduate school experience
 Living in Athens
-IOB program (compared to bioinformatics programs at other universities)
-IOB program (compared to other UGA departments)
+IOB program, compared to bioinformatics programs at other universities
+IOB, compared to other UGA departments and institutes
 IOB coursework
 Interactions with students and faculty
 Other (specify below)
@@ -264,13 +284,12 @@ Extremely satisfied
 [[Question:Matrix]]
 Please rate your agreement with the following statements about your progress toward degree completion.
 [[Choices]]
-I am aware of the requirements of the PhD program to graduate
+I am aware of the requirements of the graduate program to graduate
 I feel confident I will graduate
 I have a timeline for my graduation
-I will be prepared for a career when I receive my degree
 I am confident that my career prospects are good
+I will be prepared for a career when I receive my degree
 I have seriously considered leaving the program
-I am stressed about not having an anticipated graduation date.
 [[Answers]]
 N/A
 Disagree
@@ -288,6 +307,7 @@ Fellow graduate students
 Advisor/PI
 IOB staff
 Faculty Graduate Coordinator
+Your thesis committee
 Other faculty
 Course materials (eg BINF 8001)
 UGA websites (graduate school, health center, others)
@@ -309,16 +329,16 @@ A few times a semester
 Only a couple times this year
 
 [[Question:Matrix]]
-Please rate your research advisor regarding the following aspects of the PhD program in the past year.
+Please rate your research advisor regarding the following aspects of the graduate program in the past year.
 [[Choices]]
 Research project development
-Career development and networking
+Development opportunities
 Work-life balance
 [[Answers]]
 Unhelpful
 Somewhat helpful
 Helpful
-
+#? where we left off
 [[Question:Matrix]]
 Please rate your agreement with the following statements based on your interactions with your PI in the past year.
 [[Choices]]
@@ -654,7 +674,7 @@ Not stressed at all (1)
 Stressed all day, every day (10)
 
 [[Question:MC]]
-Do you believe your PhD has caused you anxiety or depression?
+Do you believe your graduate program has caused you anxiety or depression?
 [[Choices]]
 Prefer not to answer
 No
@@ -662,6 +682,8 @@ Yes - and I have sought professional help
 Yes - and I have not sought professional help
 
 [[Block:Final Comments]]
+
+#? break into multiple questions
 
 [[Question:TE]]
 If there is anything else you would like to share with us, please do so below.
