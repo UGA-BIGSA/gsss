@@ -338,7 +338,8 @@ Work-life balance
 Unhelpful
 Somewhat helpful
 Helpful
-#? where we left off
+
+
 [[Question:Matrix]]
 Please rate your agreement with the following statements based on your interactions with your PI in the past year.
 [[Choices]]
@@ -346,18 +347,18 @@ I have a good relationship with my advisor.
 I do not feel valued / respected by my advisor.
 My advisor respects my cultural/ethnic/socioeconomic background.
 My advisor is an asset to my academic and professional career.
-My advisor does not support my career goals.
+My advisor supports my career goals.
 My advisor and I can come to a mutual agreement on goals for my project(s) and milestones for my progress.
 My advisor communicates clear expectations for things to accomplish before our next meeting.
-My advisor's expectations are unreasonable.
+My advisor's expectations are reasonable.
 My advisor acknowledges my frustration when I struggle with my research.
-My advisor takes time for me.
 My advisor and I meet frequently enough.
-My advisor encourages me in developing independent thinking.
 My advisor gives me autonomy over my research.
 My advisor positively impacts my mental and emotional well-being.
 If I were experiencing mental health challenges, I would feel comfortable asking my adviser for time off.
-My advisor intimidates me.
+My advisor provides adequate support in learning the techniques/protocols involved in my research.
+I feel comfortable advocating for myself when interacting with my advisor.
+#? Add a statement the advisor's receptiveness to it.
 [[Answers]]
 Prefer not to answer
 Disagree
@@ -368,8 +369,10 @@ Agree
 [[Question:TE]]
 If you have feedback about the mentorship you have received from your PI during your graduate program, please share it below.
 
+#? Standardize first or second person throughout.
+
 [[Question:Matrix]]
-Your most recent committee meeting was valuable for...
+Your committee meetings over the past year have been valuable for...
 [[Choices]]
 Research Development
 Career Development
@@ -382,13 +385,22 @@ Somewhat disagree
 Somewhat agree
 Agree
 
+
+[[Question:MC]]
+Have you completed an IOB course in the past year?
+[[Choies]]
+Yes
+No
+
 [[Question:Matrix]]
-Your most recent committee meeting was valuable for...
+Please rate your agreement with the following statements:
 [[Choices]]
-Committee Meeting Checklist
-Pre-meeting evaluation discussion
-Suggested presentation outline
-Committee feedback form (filled out by committee chair)
+The IOB core curriculum has challenged me to think critically about bioinformatics.
+The IOB core curriculum included enough background in biological concepts.
+The IOB core curriculum included enough background in computational skills.
+The IOB core curriculum included enough background in data analysis.
+The skills and concepts I learned in IOB classes prepared me for my current research.
+The skills and concepts I learned in IOB classes prepared me for my future career.
 [[Answers]]
 N/A
 Disagree
@@ -396,32 +408,12 @@ Somewhat disagree
 Somewhat agree
 Agree
 
-[[Question:TE]]
-If you have feedback about how the department could improve committee meetings or degree expectations, please share it below.
-
-[[Block:Education/Coursework]]
-
-[[Question:MC]]
-Have you completed an IOB course in the past two years?
-[[Choies]]
-Yes
-No
-
-[[Question:MC]]
-Are there elective courses relevant to your focus/projects?
-[[Choices]]
-Yes
-No
-Unsure
-
 [[Question:Matrix]]
-Please rate your agreement with the following statements:
+Please rate your agreement with the following statements.
 [[Choices]]
-The IOB core curriculum has challenged me to think critically about bioinformatics.
-The IOB core curriculum included enough background in biology.
-The IOB core curriculum included enough background in computer science.
-The skills I learned in IOB classes prepared me for my current research.
-The skills I learned in IOB classes prepared me for my future career.
+One or more of the IOB electives were relevant to my research/goals.
+One or more of the other electives were relevant to my research/goals.
+The courses I would be interested in taking were not available in IOB or other departments.
 [[Answers]]
 N/A
 Disagree
@@ -442,12 +434,13 @@ Other student organization events
 Grad school career workshops
 Grad school financial workshops
 [[Answers]]
+#? Standardize frequency responses
 None
 A few
 Several
 
 [[Question:Matrix]]
-In the past year, how effectively has IOB informed you of the following:
+In the past year, I have received enough information from IOB about the following topics: 
 [[Choices]]
 IOB events
 Dissertations
@@ -463,15 +456,17 @@ Only a little effective
 Reasonably effective
 Very effective
 
-[[Question:MC:MultipleAnswer]]
-What prevents you from attending BIGSA social events? Select all that apply:
-[[Choices]]
-I try to attend most events!
-Don't know about events
-Too busy
-Not interested
-Other (specify below)
+[[Question:TE]]
+If you have additional feedback about the communications you have received from IOB (e.g. frequency, mode of communication) please enter it here.
 
+[[Question:MC:MultipleAnswer]]
+What would make you more likely to attend future BIGSA events? Select all that apply:
+[[Choices]]
+I try to attend most events
+I don't know about events
+Nothing, I'm too busy to attend
+I'm not interested in the events offered
+Other (specify below)
 [[Question:TE]]
 
 [[Question:MC]]
@@ -480,29 +475,29 @@ In general, would you like to see more social events?
 Yes
 No
 Unsure
-I want fewer
 
 [[Question:TE]]
 Optional: What type of events are you interested in attending? (social, academic, or professional; please be specific)
-
-[[Question:TE]]
-Optional:
-How could IOB communicate more effectively? What information would you be interested in that IOB is not effectively communicating in?
+#? Turn this into a checkbox thing with an other category
 
 [[Block:Career Development]]
 
 [[Question:Matrix]]
 How interested would you be in working in the following sectors?
 [[Choices]]
-Academia (Research Focus)
+Academic (Research Focus)
 Academic (Teaching Focus)
-Biotech/Pharma Industry
+Biotechnology Industry
+Agricultural Industry
+Pharmaceutical Industry
+Healthcare Industry
 Other Industry
 Science Communication
-Non-Profit
+Nonprofit Research Institute
 Science Policy
-Consulting/Project Management
-National/State Labs
+Consulting
+National Labs
+State Labs
 Unsure
 Other (specify below)
 [[Answers]]
@@ -518,17 +513,19 @@ Very interested
 [[Question:MC:MultipleAnswer]]
 What kind of career development opportunities would be helpful to you?
 [[Choices]]
-Workshops geared toward learning a specific skill
-Workshops on developing talents and soft skills
-Seminars focused on career options
-Job search workshops (Resume buidling, Linked-In, interviews and salary negotiation, etc)
+Workshops geared toward learning a specific technical skill, concept, or software
+Workshops on developing soft skills
+Workshops on job search skills (resume building, Linked-In, interviews and salary negotiation, etc.)
+Career focused talks and panels by alumni and other speakers
 Networking events
+#? Shufan had a fun suggestion. Let's follow up and record it here.
 Other (specify below)
-
 [[Question:TE]]
 
 [[Question:TE]]
 What kinds of professional development opportunities have you found helpful already?
+
+#? We stopped here on 05/24/2023.
 
 [[Question:MC]]
 What is the main reason you do not attend more professional development opportunities?
