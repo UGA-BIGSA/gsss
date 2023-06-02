@@ -122,6 +122,8 @@ Rarely
 Sometimes
 Often
 
+#? Create followup question on skedaddle contributors
+
 [[Question:Matrix]]
 In the last year, how satisfied have you been with each of the following aspects of your degree program?
 [[Choices]]
@@ -527,20 +529,9 @@ What kinds of professional development opportunities have you found helpful alre
 
 #? We stopped here on 05/24/2023.
 
-[[Question:MC]]
-What is the main reason you do not attend more professional development opportunities?
-[[Choices]]
-It's too early in my graduate career
-They were scheduled at inopportune times
-My PI does not want me to leave the lab for such events
-The events do not cover topics that interest me
-The events were located too far away
-I do not have time for these events because of my research/teaching committments
-I wasn't aware of the events
-Other (specify below)
-
 [[Question:TE]]
 
+#? Come back to this one. Not exactly covered, but debatable
 [[Question:Matrix]]
 Please rate your agreement with the following statements:
 [[Choices]]
@@ -556,77 +547,92 @@ Somewhat agree
 Agree
 
 [[Question:TE]]
-If you have any feedback or suggestions about career development opportunities in IOB, please share them here.
+What types of career development opportunities in IOB would you like to see in the future? 
 
 [[Block:Work Life Balance]]
 
-[[Question:TE]]
-Approximately what was your stipend last year?
-
-[[Question:MC]]
-Is the stipend you reported above paid by a fellowship you applied for and received?
-[[Choices]]
-Yes
-No
-Partially
+#? Maybe instead a question around how IOB communicates their benefits, funding, etc? Maybe follow up with Sandra to get good questions on this and/or develop a secondary survey. Knowledge attitudes CAPS Survey
 
 [[Question:MC:MultipleAnswer]]
-In the last year, how many of the following have caused you significant financial strain?
+In the past year, my funding has come from the following sources:
+[[Choices]]
+External fellowship
+T32 training grant or other UGA fellowship
+Research assistantship (lab industry contract)
+Research assistantship (lab grant)
+Research assistantship (other lab funds)
+Research assistantship (departmental funds)
+Research assistantship (government contract)
+Teaching assistantship (IOB)
+Teaching assistantship (other department)
+No funding support
+Unsure
+
+[[Question:MC:MultipleAnswer]]
+In the past year, how many of the following have caused you significant financial strain?
 [[Choices]]
 No significant financial strain
-Cost of living (rent, utilities, etc)
+Cost of living (rent, utilities, food, etc.)
+IOB reimbursable expenses (e.g. conference registration fees)
+Debt (e.g. student loans)
 Recurring medical expenses
 Emergency/non-recurring medical expenses
-Out-of-pocket reimbursible expenses for IOB events
-Student loans
-Car maintenance
+Other recurring expenses
+Other emergency/non-recurring expenses
 Other (specify below)
 
 [[Question:TE]]
 
 [[Question:MC:MultipleAnswer]]
-In the last year, how many of the following have you used your personal funds for, without reimbursement?
+In the past year, how many of the following have you used your personal funds for, without reimbursement?
 [[Choices]]
 I have not used any of my personal funds for activities related to research or teaching
-Purchased lab supplies
-Purchased office supplies used in lab
-Purchased supplies for the classroom
-Purchased travel to or from a conference
-Paid for conference or workshop registration
-Paid for lodging during a conference or workshop
-Purchased software for personal computer that is available for free campus/lab computers
-Purchased software for personal computer that is not available on campus/lab computers
-Purchased software for lab computer
+Office/Lab supplies
+Supplies for the classroom
+Conference costs (e.g. workshop registration fee, lodging)
+Software that is available for free on campus/lab computers
+Software that is not available on campus/lab computers
 
+#? Come back to this. How do we specify options in a useful way?
 [[Question:Matrix]]
-Thinking about the past year, how much do you agree with the following statements?
+On average, how many total hours per week do you spend for each of the following activities?
 [[Choices]]
-My finanical situation during my current program has been extremely difficult.
-My financial situation has led me to consider leaving my current program.
+Professional organizations and outreach activities
+Classwork
+Funding source
+Thesis/dissertation research
 [[Answers]]
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
-Prefer not to say
-
-[[Question:MC]]
-On average, how many total hours per week do you spend working on your research assistantship?
-Less than 40 hours
-40 hours
-40-50 hours
-50-60 hours
-more than 60 hours
+0-10
+11-20
+21-30
+31-40
+41-50
+50+
 
 [[Question:TE]]
-Approximately how many days' vacation have you taken in the previous year, including UGA holidays?
+Approximately how much time have you taken off in the past year? Do not include time where you are working remotely.
+#? Use similar strategy as preceding question for this one.
+Parental leave
+Medical leave (including sick days)
+Caregiving leave
+Bereavement leave
+Travel required for visa requirements
+Military leave
+UGA holidays
+Personal days (including vacation)
 
 [[Question:Matrix]]
 Do you feel comfortable asking for days off for the following reasons?
 [[Choices]]
-vacation
-mental health
-physical health
+Parental leave
+Mental health
+Physical health
+Caregiving leave
+Bereavement leave
+Travel required for visa requirements
+Military leave
+UGA holidays
+Personal days (including vacation)
 [[Answers]]
 No, my PI makes me feel bad for taking time off.
 Yes, as long as I have been productive recently.
@@ -634,21 +640,22 @@ Yes, as long as I catch my PI in the right mood.
 Yes; my PI is supportive of this time off.
 
 [[Question:Matrix]]
-Do you feel you have sufficient time for the following activities?
+In the past year, do you feel you have had sufficient time for the following activities?
 [[Choices]]
-Hobbies
-Excercise
+Spending time with family
+Exercise
+Volunteering, advocacy, and outreach
 Preparing meals
 Socializing outside of work
-Attending UGA/IOB social events
-Attending cultural events
+Attending cultural events and religious observances
+Hobbies or other activities you enjoy
 [[Answers]]
 No
 Yes
 Not interested
 
 [[Question:MC]]
-In general, how would you rate your mental and emotional health?
+In the past year, how would you rate your mental and emotional health?
 [[Choices]]
 Poor
 Fair
@@ -656,8 +663,9 @@ Good
 Very Good
 Prefer not to answer
 
+#? Come back to it. Not this stress question, but some kind of stress question plz
 [[Question:MC:SingleAnswer:Horizontal]]
-On a scale from 1 to 10, how would you rate your average level of stress in the past 30 days?
+On a scale from 1 to 10, how would you rate your average level of stress in the past year?
 [[Choices]]
 Not stressed at all (1)
 2
@@ -670,8 +678,9 @@ Not stressed at all (1)
 9
 Stressed all day, every day (10)
 
+#? Return to later, gross phrasing right now.
 [[Question:MC]]
-Do you believe your graduate program has caused you anxiety or depression?
+Do you believe your graduate program has contributed to your mental health issues?
 [[Choices]]
 Prefer not to answer
 No
@@ -680,7 +689,7 @@ Yes - and I have not sought professional help
 
 [[Block:Final Comments]]
 
-#? break into multiple questions
+#? Add one final comment blob to each subsection
 
 [[Question:TE]]
 If there is anything else you would like to share with us, please do so below.
