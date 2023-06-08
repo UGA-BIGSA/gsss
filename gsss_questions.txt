@@ -84,16 +84,28 @@ Other (specify below)
 
 [[Question:TE]]
 
-#? when did you find IOB
+
+[[Question:MC]]
+When did you begin to consider joining the Institute of Bioinformatics at UGA?
+[[Choices]]
+Before applying to UGA
+During ILS/IPS interviews
+After being accepted to UGA but before the fall semester
+During ILS/IPS fall semester welcome events
+During rotations
+Other (specify below)
+
+[[Question:TE]]
+
 
 [[Question:MC]]
 When did you discover the lab you ended up joining?
 [[Choices]]
 Before applying to UGA
-During ILS/IPS Recruitment
-During fall welcome events
+During ILS/IPS interviews
+After being accepted to UGA but before the fall semester
+During ILS/IPS fall semester welcome events
 During rotations
-After interview invitation, but not at a specific events
 Other (specify below)
 
 [[Question:TE]]
@@ -122,7 +134,25 @@ Rarely
 Sometimes
 Often
 
-#? Create followup question on skedaddle contributors
+[[Question:MC:MultipleAnswer]]
+Which of the following factors have led you to consider leaving your graduate program in the past year (if any)?
+[[Choices]]
+N/A, I didn't consider leaving my graduate program in the past year.
+Work-life balance
+Career path
+Personal financial issues
+Grant funding
+Availability of desired career positions
+Uncertainty about value of degree
+Transitioning to future career
+Physical health
+Mental health
+Political landscape
+Imposter syndrome
+Missing home/Culture shock
+Other
+
+[[Question:TE]]
 
 [[Question:Matrix]]
 In the last year, how satisfied have you been with each of the following aspects of your degree program?
@@ -348,19 +378,20 @@ Please rate your agreement with the following statements based on your interacti
 I have a good relationship with my advisor.
 I do not feel valued / respected by my advisor.
 My advisor respects my cultural/ethnic/socioeconomic background.
-My advisor is an asset to my academic and professional career.
-My advisor supports my career goals.
-My advisor and I can come to a mutual agreement on goals for my project(s) and milestones for my progress.
+My advisor supports my academic goals.
+My advisor supports my professional goals.
 My advisor communicates clear expectations for things to accomplish before our next meeting.
 My advisor's expectations are reasonable.
-My advisor acknowledges my frustration when I struggle with my research.
-My advisor and I meet frequently enough.
-My advisor gives me autonomy over my research.
+My advisor and I meet frequently enough, and they are available when I need them.
+My advisor gives me autonomy over my research topic, goals, and milestones.
 My advisor positively impacts my mental and emotional well-being.
+If I were experiencing physical health challenges, I would feel comfortable asking my adviser for time off.
 If I were experiencing mental health challenges, I would feel comfortable asking my adviser for time off.
 My advisor provides adequate support in learning the techniques/protocols involved in my research.
 I feel comfortable advocating for myself when interacting with my advisor.
-#? Add a statement the advisor's receptiveness to it.
+My advisor respects my input on workstyle (e.g. working hours, working from home)
+My advisor respects my input on the lab and our working relationship.
+My advisor is receptive to my needs as a person, not just a researcher.
 [[Answers]]
 Prefer not to answer
 Disagree
@@ -478,10 +509,6 @@ Yes
 No
 Unsure
 
-[[Question:TE]]
-Optional: What type of events are you interested in attending? (social, academic, or professional; please be specific)
-#? Turn this into a checkbox thing with an other category
-
 [[Block:Career Development]]
 
 [[Question:Matrix]]
@@ -520,18 +547,11 @@ Workshops on developing soft skills
 Workshops on job search skills (resume building, Linked-In, interviews and salary negotiation, etc.)
 Career focused talks and panels by alumni and other speakers
 Networking events
-#? Shufan had a fun suggestion. Let's follow up and record it here.
+#? Shufan had a fun suggestion about an "agent". Let's follow up and record it here.
 Other (specify below)
 [[Question:TE]]
 
-[[Question:TE]]
-What kinds of professional development opportunities have you found helpful already?
 
-#? We stopped here on 05/24/2023.
-
-[[Question:TE]]
-
-#? Come back to this one. Not exactly covered, but debatable
 [[Question:Matrix]]
 Please rate your agreement with the following statements:
 [[Choices]]
