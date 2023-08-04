@@ -571,8 +571,6 @@ What types of career development opportunities in IOB would you like to see in t
 
 [[Block:Work Life Balance]]
 
-#? Maybe instead a question around how IOB communicates their benefits, funding, etc? Maybe follow up with Sandra to get good questions on this and/or develop a secondary survey. Knowledge attitudes CAPS Survey
-
 [[Question:MC:MultipleAnswer]]
 In the past year, my funding has come from the following sources:
 [[Choices]]
