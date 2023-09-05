@@ -568,14 +568,14 @@ Other (specify below)
 [[Question:TE]]
 
 [[Question:MC:MultipleAnswer]]
-What kind of career development opportunities would be helpful to you?
+What kind of career development resources and opportunities would be helpful to you?
 [[Choices]]
 Workshops geared toward learning a specific technical skill, concept, or software
 Workshops on developing soft skills
 Workshops on job search skills (resume building, Linked-In, interviews and salary negotiation, etc.)
 Career focused talks and panels by alumni and other speakers
 Networking events
-Having access to an IOB-hired professional headhunter to assist in job preparation and placement
+IOB-hired professional headhunter to assist in job preparation and placement
 Other (specify below)
 [[Question:TE]]
 
@@ -712,20 +712,14 @@ In the past year, how would you rate your mental and emotional health?
 5-Very Good
 Prefer not to answer
 
-#? Come back to it. Not this stress question, but some kind of stress question plz
 [[Question:MC:SingleAnswer:Horizontal]]
-On a scale from 1 to 10, how would you rate your average level of stress in the past year?
+In the past year, how often have you felt stressed?
 [[Choices]]
-Not stressed at all (1)
-2
-3
-4
-5
-6
-7
-8
-9
-Stressed all day, every day (10)
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
 
 [[Question:MC]]
 In the past year, what has been the impact of the graduate program on your mental health (or well being)?
