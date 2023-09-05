@@ -161,7 +161,7 @@ In the last year, how satisfied have you been with each of the following aspects
 Quality of graduate coursework
 Professional relationship with dissertation advisor
 Departmental career development opportunities
-Level of financial support through grant funding
+Level of financial support
 Communication within IOB
 Stipend covering living expenses
 Infrastructure (Sapelo2, accessibility to space, equipment, etc)
@@ -214,8 +214,8 @@ If you have experienced harassment or discrimination in IOB please consider repo
 
 If you have experienced harassment or discrimination at UGA and do not want to report using departmental procedure please consider contacting the UGA Compliance, Ethics and Reporting hotline <a href=https://legal.uga.edu/guidance/compliance-ethics-reporting-hotline>here</a>.
 
-If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
-#? follow up ^
+If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/who-should-i-talk-to/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
+
 If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
 
 [[Question:Matrix]]
@@ -624,25 +624,18 @@ Conference costs (e.g. workshop registration fee, lodging)
 Software that is available for free on campus/lab computers
 Software that is not available on campus/lab computers
 
-#? Come back to this. How do we specify options in a useful way?
-[[Question:Matrix]]
+[[Question:ContantSum]]
 On average, how many total hours per week do you spend for each of the following activities?
 [[Choices]]
 Professional organizations and outreach activities
 Classwork
+Teaching
 Funding source
 Thesis/dissertation research
-[[Answers]]
-0-10
-11-20
-21-30
-31-40
-41-50
-50+
 
-[[Question:TE]]
-Approximately how much time have you taken off in the past year? Do not include time where you are working remotely.
-#? Use similar strategy as preceding question for this one.
+[[Question:ContantSum]]
+Approximately how many days have you taken off in the past year for each of the following reasons? Do not include time where you are working remotely.
+[[Choices]]
 Parental leave
 Medical leave (including sick days)
 Caregiving leave
