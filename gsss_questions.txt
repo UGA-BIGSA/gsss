@@ -645,7 +645,7 @@ Conference costs (e.g. workshop registration fee, lodging)
 Software that is available for free on campus/lab computers
 Software that is not available on campus/lab computers
 
-[[Question:ContantSum]]
+[[Question:ConstantSum]]
 On average, how many total hours per week do you spend for each of the following activities?
 [[Choices]]
 Professional organizations and outreach activities
@@ -654,7 +654,7 @@ Teaching
 Funding source
 Thesis/dissertation research
 
-[[Question:ContantSum]]
+[[Question:ConstantSum]]
 Approximately how many days have you taken off in the past year for each of the following reasons? Do not include time where you are working remotely.
 [[Choices]]
 Parental leave
