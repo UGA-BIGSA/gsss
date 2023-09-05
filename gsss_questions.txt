@@ -64,11 +64,11 @@ How well were program expectations (eg registration, class requirements, etc) ex
 Before you joined
 After joining
 [[Answers]]
-1 - Very poorly
-2
-3
-4
-5 - Very well
+1-Very Poorly
+2-Poorly
+3-Acceptably
+4-Well
+5-Very Well
 
 [[Question:MC:MultipleAnswer]]
 Why did you join the Institute of Bioinformatics?
@@ -129,10 +129,11 @@ Imposter syndrome
 Missing home/Culture shock
 Other
 [[Answers]]
-Never
-Rarely
-Sometimes
-Often
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
 
 [[Question:MC:MultipleAnswer]]
 Which of the following factors have led you to consider leaving your graduate program in the past year (if any)?
@@ -167,18 +168,18 @@ Infrastructure (Sapelo2, accessibility to space, equipment, etc)
 Interpersonal relationships with peers in IOB
 Other (specify below)
 [[Answers]]
-Dissatisfied
-Slightly dissatisfied
-No opinion
-Slightly satisfied
-Satisfied
+1-Very Dissatisfied
+2-Dissatisfied
+3-Neither Dissatisfied nor Satisfied
+4-Satisfied
+5-Very Satisfied
 
 [[Question:TE]]
 
 [[PageBreak]]
 
 [[Question:MC]]
-I am aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct.
+Are you aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct?
 [[Choices]]
 Yes, and I would feel comfortable using them
 Yes, but I wouldn't feel comfortable using them
@@ -186,7 +187,7 @@ No
 Unsure
 
 [[Question:Matrix]]
-I would feel comfortable with reporting an incident of harassment, discrimination, or other forms of unethical conduct to:
+How comfortable would you feel with reporting an incident of harassment, discrimination, or other forms of unethical conduct to each of the following?
 [[Choices]]
 My PI
 My committee
@@ -196,11 +197,11 @@ Other PIs in IOB
 IOB staff
 Other graduate students
 [[Answers]]
-1 - Not comfortable at all
-2
-3
-4
-5 - Very comfortable
+1-Very Uncomfortable
+2-Uncomfortable
+3-Neither Uncomfortable or Comfortable
+4-Comfortable
+5-Very Comfortable
 
 [[PageBreak]]
 
@@ -231,36 +232,40 @@ Disability
 Socioeconomic/income level
 Veteran status
 [[Answers]]
-Never
-Rarely
-Sometimes
-Often
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
 
 [[PageBreak]]
 
 [[Question:MC:SingleAnswer:Horizontal]]
 Knowing what you know now, how likely would you be to join IOB again?
 [[Choices]]
-Very unlikely
-Unlikely
-Likely
-Very likely
+1-Very Unlikely
+2-Unlikely
+3-Neutral
+4-Likely
+5-Very Likely
 
 [[Question:MC:SingleAnswer:Horizontal]]
 Knowing what you know now, how likely would you be to join a UGA graduate program again?
 [[Choices]]
-Very unlikely
-Unlikely
-Likely
-Very likely
+1-Very Unlikely
+2-Unlikely
+3-Neutral
+4-Likely
+5-Very Likely
 
 [[Question:MC:SingleAnswer:Horizontal]]
 Knowing what you know now, how likely would you be to join the same lab?
 [[Choices]]
-Very unlikely
-Unlikely
-Likely
-Very likely
+1-Very Unlikely
+2-Unlikely
+3-Neutral
+4-Likely
+5-Very Likely
 
 [[Question:Matrix]]
 Please rate your satisfaction with the following aspects of your lab:
@@ -280,14 +285,11 @@ Access to equipment, software, and other resources
 Lab/office space
 Other (specify below)
 [[Answers]]
-Extremely unsatisfied
-Very unsatisfied
-Unsatisfied
-Neutral
-Satisfied
-Very satisfied
-Extremely satisfied
-#? standardize the ratings
+1-Very Dissatisfied
+2-Dissatisfied
+3-Neither Dissatisfied nor Satisfied
+4-Satisfied
+5-Very Satisfied
 [[Question:TE]]
 
 [[Question:Matrix]]
@@ -301,13 +303,11 @@ IOB coursework
 Interactions with students and faculty
 Other (specify below)
 [[Answers]]
-Extremely unsatisfied
-Very unsatisfied
-Unsatisfied
-Neutral
-Satisfied
-Very satisfied
-Extremely satisfied
+1-Very Dissatisfied
+2-Dissatisfied
+3-Neither Dissatisfied nor Satisfied
+4-Satisfied
+5-Very Satisfied
 
 [[Question:TE]]
 
@@ -323,11 +323,12 @@ I am confident that my career prospects are good
 I will be prepared for a career when I receive my degree
 I have seriously considered leaving the program
 [[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neutral
+4-Agree
+5-Strongly Agree
 N/A
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
 
 [[Question:TE]]
 If you have feedback about your general satisfaction about your degree program with IOB, or anything IOB could do to improve your experience, please share it below. 
@@ -346,6 +347,12 @@ UGA websites (graduate school, health center, others)
 General internet search
 IOB website/student handbook
 Other (specify below)
+[[Answers]]
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
 
 [[Question:TE]]
 
@@ -361,15 +368,17 @@ A few times a semester
 Only a couple times this year
 
 [[Question:Matrix]]
-Please rate your research advisor regarding the following aspects of the graduate program in the past year.
+Please rate your satisfaction with your research advisor regarding the following aspects of the graduate program in the past year.
 [[Choices]]
 Research project development
 Development opportunities
 Work-life balance
 [[Answers]]
-Unhelpful
-Somewhat helpful
-Helpful
+1-Very Dissatisfied
+2-Dissatisfied
+3-Neither Dissatisfied nor Satisfied
+4-Satisfied
+5-Very Satisfied
 
 
 [[Question:Matrix]]
@@ -393,16 +402,15 @@ My advisor respects my input on workstyle (e.g. working hours, working from home
 My advisor respects my input on the lab and our working relationship.
 My advisor is receptive to my needs as a person, not just a researcher.
 [[Answers]]
-Prefer not to answer
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A or Prefer Not to Answer
 
 [[Question:TE]]
 If you have feedback about the mentorship you have received from your PI during your graduate program, please share it below.
-
-#? Standardize first or second person throughout.
 
 [[Question:Matrix]]
 Your committee meetings over the past year have been valuable for...
@@ -412,11 +420,12 @@ Career Development
 Presentation Skills
 Resolving conflict or disagreement with my advisor
 [[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
 N/A
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
 
 
 [[Question:MC]]
@@ -435,11 +444,12 @@ The IOB core curriculum included enough background in data analysis.
 The skills and concepts I learned in IOB classes prepared me for my current research.
 The skills and concepts I learned in IOB classes prepared me for my future career.
 [[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
 N/A
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
 
 [[Question:Matrix]]
 Please rate your agreement with the following statements.
@@ -448,11 +458,12 @@ One or more of the IOB electives were relevant to my research/goals.
 One or more of the other electives were relevant to my research/goals.
 The courses I would be interested in taking were not available in IOB or other departments.
 [[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
 N/A
-Disagree
-Somewhat disagree
-Somewhat agree
-Agree
 
 [[Question:TE]]
 If you have additional feedback about the IOB curriculum, please share it here.
@@ -467,10 +478,11 @@ Other student organization events
 Grad school career workshops
 Grad school financial workshops
 [[Answers]]
-#? Standardize frequency responses
-None
-A few
-Several
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
 
 [[Question:Matrix]]
 In the past year, I have received enough information from IOB about the following topics: 
@@ -484,10 +496,12 @@ Job openings
 Grant opportunities
 Conferences
 [[Answers]]
-Not effective at all
-Only a little effective
-Reasonably effective
-Very effective
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A
 
 [[Question:TE]]
 If you have additional feedback about the communications you have received from IOB (e.g. frequency, mode of communication) please enter it here.
@@ -530,12 +544,11 @@ State Labs
 Unsure
 Other (specify below)
 [[Answers]]
-Disinterested
-Somewhat disinterested
-Neither interested nor disinterested
-Somewhat interested
-Interested
-Very interested
+1-Disinterested
+2-Somewhat disinterested
+3-Neither interested nor disinterested
+4-Somewhat interested
+5-Interested
 
 [[Question:TE]]
 
@@ -559,12 +572,12 @@ I am able to attend most conferences and/or workshops I am interested in
 I have financial support to attend scientific conference/training opportunities
 I have financial support to attend non-scientific networking/training events
 [[Answers]]
-N/A or unsure
-Disagree
-Somewhat disagree
-Neither agree nor disagree
-Somewhat agree
-Agree
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A
 
 [[Question:TE]]
 What types of career development opportunities in IOB would you like to see in the future? 
@@ -658,7 +671,7 @@ Yes, as long as I catch my PI in the right mood.
 Yes; my PI is supportive of this time off.
 
 [[Question:Matrix]]
-In the past year, do you feel you have had sufficient time for the following activities?
+In the past year, how often do you feel you have had sufficient time for the following activities?
 [[Choices]]
 Spending time with family
 Exercise
@@ -668,17 +681,21 @@ Socializing outside of work
 Attending cultural events and religious observances
 Hobbies or other activities you enjoy
 [[Answers]]
-No
-Yes
-Not interested
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Always
+N/A
 
 [[Question:MC]]
 In the past year, how would you rate your mental and emotional health?
 [[Choices]]
-Poor
-Fair
-Good
-Very Good
+1-Very Poor
+2-Poor
+3-Acceptable
+4-Good
+5-Very Good
 Prefer not to answer
 
 #? Come back to it. Not this stress question, but some kind of stress question plz
