@@ -110,6 +110,10 @@ Other (specify below)
 
 [[Question:TE]]
 
+
+[[Question:TE]]
+If you have any other comments or suggestions about recruitment, please provide them below.
+
 [[Block:Overall Satisfaction]]
 
 [[Question:Matrix]]
@@ -311,8 +315,6 @@ Other (specify below)
 
 [[Question:TE]]
 
-[[PageBreak]]
-
 [[Question:Matrix]]
 Please rate your agreement with the following statements about your progress toward degree completion.
 [[Choices]]
@@ -332,6 +334,8 @@ N/A
 
 [[Question:TE]]
 If you have feedback about your general satisfaction about your degree program with IOB, or anything IOB could do to improve your experience, please share it below. 
+
+[[PageBreak]]
 
 [[Question:Matrix]]
 How often do you make use of the following resources when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
@@ -355,6 +359,7 @@ Other (specify below)
 5-Always
 
 [[Question:TE]]
+
 
 [[Block:Mentoring]]
 
@@ -427,6 +432,11 @@ Resolving conflict or disagreement with my advisor
 5-Strongly Agree
 N/A
 
+
+[[Question:TE]]
+If you have additional feedback about the mentorship you have received, please share it here.
+
+[[Block:Coursework]]
 
 [[Question:MC]]
 Have you completed an IOB course in the past year?
@@ -506,6 +516,8 @@ N/A
 [[Question:TE]]
 If you have additional feedback about the communications you have received from IOB (e.g. frequency, mode of communication) please enter it here.
 
+[[Block:BIGSA and Social Events]]
+
 [[Question:MC:MultipleAnswer]]
 What would make you more likely to attend future BIGSA events? Select all that apply:
 [[Choices]]
@@ -522,6 +534,9 @@ In general, would you like to see more social events?
 Yes
 No
 Unsure
+
+[[Question:TE]]
+If you have additional feedback about BIGSA or social events, please share it here.
 
 [[Block:Career Development]]
 
@@ -598,6 +613,12 @@ Teaching assistantship (IOB)
 Teaching assistantship (other department)
 No funding support
 Unsure
+
+
+[[Question:TE]]
+If you have additional feedback about BIGSA or social events, please share it here.
+
+[[Block:Wellbeing]]
 
 [[Question:MC:MultipleAnswer]]
 In the past year, how many of the following have caused you significant financial strain?
@@ -714,6 +735,9 @@ Prefer not to answer
 No
 Yes - and I have sought professional help
 Yes - and I have not sought professional help
+
+[[Question:TE]]
+If you have additional feedback around graduate student wellbeing, please share it here.
 
 [[Block:Final Comments]]
 
