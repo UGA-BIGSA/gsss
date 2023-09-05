@@ -727,14 +727,15 @@ Not stressed at all (1)
 9
 Stressed all day, every day (10)
 
-#? Return to later, gross phrasing right now.
 [[Question:MC]]
-Do you believe your graduate program has contributed to your mental health issues?
+In the past year, what has been the impact of the graduate program on your mental health (or well being)?
 [[Choices]]
+Positive
+Neutral
+Negative - and I have sought professional help
+Negative - and I have not sought professional help
 Prefer not to answer
-No
-Yes - and I have sought professional help
-Yes - and I have not sought professional help
+
 
 [[Question:TE]]
 If you have additional feedback around graduate student wellbeing, please share it here.
