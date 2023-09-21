@@ -182,6 +182,29 @@ Other (specify below)
 
 [[PageBreak]]
 
+[[Question:MC:SingleAnswer:Horizontal]]
+Rate your agreement with the following statement: I feel like I belong in the Institute of Bioinformatics (IOB).
+[[Choices]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+
+[[Question:Matrix]]
+In the last year, how often have you felt that your contributions are valued...
+[[Choices]]
+in your lab.
+among other graduate students.
+in the Institute of Bioinformatics (IOB).
+at UGA.
+[[Answers]]
+1-Never
+2-Rarely
+3-Sometimes
+4-Often
+5-Alwayss
+
 [[Question:MC]]
 Are you aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct?
 [[Choices]]
@@ -597,8 +620,6 @@ N/A
 [[Question:TE]]
 What types of career development opportunities in IOB would you like to see in the future? 
 
-[[Block:Work Life Balance]]
-
 [[Question:MC:MultipleAnswer]]
 In the past year, my funding has come from the following sources:
 [[Choices]]
@@ -619,6 +640,8 @@ Unsure
 If you have additional feedback about BIGSA or social events, please share it here.
 
 [[Block:Wellbeing]]
+
+
 
 [[Question:MC:MultipleAnswer]]
 In the past year, how many of the following have caused you significant financial strain?
