@@ -1,0 +1,117 @@
+[[Block:Instructions]]
+
+[[Question:Text]]
+The following survey gauges graduate student satisfaction with the UGA Institute of Bioinformatics (IOB) Graduate Program. 
+ 
+It covers the following aspects of your graduate experience and is completely anonymous.
+ 
+Student Info
+Recruitment
+Overall Satisfaction
+Mentorship
+Coursework
+Communication and Community
+BIGSA and Social Events
+Career Development
+Wellbeing 
+ 
+We welcome your comments at the end of each section.
+Please keep your comments professional and constructive.
+ 
+Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is the only individual with unrestricted access to survey data. Restricted access is given to BIGSA board members and the Advising Graduate Coordinator. These restrictions prevent viewing individual responses and cross-tabulation of data to identify respondents.
+#? Follow up on above
+
+[[Block:Student Info]]
+
+
+
+[[Block: Recruitment]]
+
+
+
+[[Block:Overall Satisfaction]]
+
+
+
+[[Block:Mentorship]]
+
+    [[Question:Matrix]]
+    Your advisor is providing you with reasonable and satisfactory...
+    [[Choices]]
+    Communication
+    Expectations
+    Opportunities to meet with them
+    Training and supplies
+    Research Autonomy
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A or Prefer Not to Answer
+
+    [[Question:MC:MultipleAnswer]]
+    You would feel comfortable asking your advisor for time off for...
+    [[Choices]]
+    Physical health challenges
+    Mental health challenges
+    Visiting/helping family
+    Vacation/free time
+
+    [[Question:Matrix]]
+    Please rate your agreement with the following statements based on your interactions with your PI in the past year.
+    [[Choices]]
+    I feel comfortable advocating for myself when interacting with my advisor.
+    My advisor is supportive of my academic and professional goals.
+    My advisor is receptive to my needs as a person, not just a researcher.
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A or Prefer Not to Answer
+
+
+    [[Question:Matrix]]
+    Your committee meetings over the past year have been valuable for...
+    [[Choices]]
+    Research Development
+    Career Development
+    Presentation Skills
+    Resolving conflict or disagreement with my advisor
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A
+
+
+
+[[Block:Coursework]]
+
+
+
+[[Block:Communication and Community]]
+
+
+
+[[Block:BIGSA and Social Events]]
+
+
+
+[[Block:Career Development]]
+
+
+
+[[Block:Wellbeing]]
+
+
+
+[[Block:Final Comments]]
+
+[[Question:TE]]
+If there is anything else you would like to share with us, please do so below.
