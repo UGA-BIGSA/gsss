@@ -44,7 +44,7 @@ What year did you start your current degree program at UGA (not in IOB specifica
 2016 or before
 
 [[Question:MC]]
-If you are a PhD student, have you completed your qualifying exams?
+If you are a PhD student, have you completed your comprehensive exams?
 [[Choices]]
 Yes
 No
