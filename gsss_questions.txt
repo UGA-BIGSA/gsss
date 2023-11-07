@@ -3,7 +3,25 @@
 [[Block:Instructions]]
 
 [[Question:Text]]
-**Instructions here**
+The following survey gauges graduate student satisfaction with the UGA Institute of Bioinformatics (IOB) Graduate Program. 
+ 
+It covers the following aspects of your graduate experience and is completely anonymous.
+ 
+Student Info
+Recruitment
+Overall Satisfaction
+Mentoring
+Coursework
+Communication and Community
+BIGSA and Social Events
+Career Development
+Wellbeing 
+ 
+We welcome your comments at the end of each section.
+Please keep your comments professional and constructive.
+ 
+Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is the only individual with unrestricted access to survey data. Restricted access is given to BIGSA board members and the Advising Graduate Coordinator. These restrictions prevent viewing individual responses and cross-tabulation of data to identify respondents.
+#? Follow up on above
 
 [[Block:Student Info]]
 
