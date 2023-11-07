@@ -168,12 +168,12 @@ class Survey:
             self.count = survey.count.plus()
             self.name = question_text.split("\n")[1].strip()
             selectors = {
-                "MC": {True:"MAVR",False:"SAVR"}["MultipleAnswer" in question_types],
+                "MC": {True:"M",False:"S"}["MultipleAnswer" in question_types] + "A" + {True:"H",False:"V"}["Horizontal" in question_types] + "R",
                 "TE": {True:"SL",False:"ML"}["Short" in question_types],
                 "Matrix":"Likert",
                 "Slider":"HSLIDER",
                 "CS":"VRTL",
-                "DB":"TB"#left off here
+                "DB":"TB"
             }
             configurations = {
                 "MC":{"QuestionDescriptionOption": "UseText"},
