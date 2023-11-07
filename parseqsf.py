@@ -7,7 +7,7 @@ This program will parse those questions and write them in a .qsf format (which i
 If you don't specify an output file path (third arg) it will make a new file replacing the .txt with .qsf in the questions input.
 
 """
-
+import os
 import sys
 import json
 
@@ -53,7 +53,7 @@ class Survey:
 
         with open(input_questions,"r") as input:
             text = input.read()
-            text = "\n".join([line for line in text.split("\n") if not line[:2] == "#?"])
+            text = "\n".join([line.strip() for line in text.split("\n") if not line.strip()[:2] == "#?"])
 
         text = text.split("[[Block:")[1:]
         for block in text:
@@ -235,6 +235,9 @@ class Survey:
             if qtype == "CS" or qtype == "MC": Payload["SubSelector"] = "TX"
             elif qtype == "Matrix": Payload["SubSelector"] = "SingleAnswer"
 
+            if len({"MC","MultipleAnswer"}.intersection(set(question_types))) == 2:
+                Payload["QuestionText"] = "(Choose all that apply) " + Payload["QuestionText"]
+
             if "[[Choices]]" in question_text:
                 choices = [choice.strip() for choice in question_text.split("[[Choices]]")[1].split("[[")[0].split("\n") if choice.strip()]
                 choice_dict = {}
@@ -268,7 +271,10 @@ class Survey:
 
 
 def main(blank_qsf, input_questions, out_qsf = False):
+    blank_qsf = os.path.expanduser(blank_qsf)
+    input_questions = os.path.expanduser(input_questions)
     if not out_qsf: out_qsf = input_questions.replace(".txt",".qsf")
+    else: out_qsf = os.path.expanduser(out_qsf)
     
     survey = Survey(blank_qsf, input_questions, False)
 
