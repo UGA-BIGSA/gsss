@@ -31,7 +31,7 @@ Are you a PhD student or a Master's student?
 PhD
 Master's
 
-[[Question:MC]]
+[[Question:MC:Dropdown]]
 What year did you start your current degree program at UGA (not in IOB specifically)?
 [[Choices]]
 2023

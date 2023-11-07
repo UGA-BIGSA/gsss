@@ -1,28 +1,66 @@
 [[Block:Instructions]]
 
-[[Question:Text]]
-The following survey gauges graduate student satisfaction with the UGA Institute of Bioinformatics (IOB) Graduate Program. 
- 
-It covers the following aspects of your graduate experience and is completely anonymous.
- 
-Student Info
-Recruitment
-Overall Satisfaction
-Mentorship
-Coursework
-Communication and Community
-BIGSA and Social Events
-Career Development
-Wellbeing 
- 
-We welcome your comments at the end of each section.
-Please keep your comments professional and constructive.
- 
-Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is the only individual with unrestricted access to survey data. Restricted access is given to BIGSA board members and the Advising Graduate Coordinator. These restrictions prevent viewing individual responses and cross-tabulation of data to identify respondents.
-#? Follow up on above
+    [[Question:Text]]
+    The following survey gauges graduate student satisfaction with the UGA Institute of Bioinformatics (IOB) Graduate Program. 
+    
+    It covers the following aspects of your graduate experience and is completely anonymous.
+    
+    Student Info
+    Recruitment
+    Overall Satisfaction
+    Mentoring
+    Coursework
+    Communication and Community
+    BIGSA and Social Events
+    Career Development
+    Wellbeing 
+    
+    We welcome your comments at the end of each section.
+    Please keep your comments professional and constructive.
+    
+    Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is the only individual with unrestricted access to survey data. Restricted access is given to BIGSA board members and the Advising Graduate Coordinator. These restrictions prevent viewing individual responses and cross-tabulation of data to identify respondents.
+    #? Follow up on above
 
 [[Block:Student Info]]
 
+    [[Question:MC]]
+    Are you a PhD student or a Master's student?
+    [[Choices]]
+    PhD
+    Master's
+
+    [[Question:MC:Dropdown]]
+    What year did you start your current degree program at UGA (not in IOB specifically)?
+    [[Choices]]
+    2023
+    2022
+    2021
+    2020
+    2019
+    2018
+    2017
+    2016 or before
+
+    [[Question:MC]]
+    If you are a PhD student, have you completed your comprehensive exams?
+    [[Choices]]
+    Yes
+    No
+    N/A
+
+    [[Question:MC]]
+    Are you an international student?
+    [[Choices]]
+    Yes
+    No
+    Prefer not to answer
+
+    [[Question:MC]]
+    Is English your native language?
+    [[Choices]]
+    Yes
+    No
+    Prefer not to answer
 
 
 [[Block: Recruitment]]
@@ -42,7 +80,7 @@ Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is
     Expectations
     Opportunities to meet with them
     Training and supplies
-    Research Autonomy
+    Research autonomy
     [[Answers]]
     1-Strongly Disagree
     2-Disagree
@@ -50,14 +88,6 @@ Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is
     4-Agree
     5-Strongly Agree
     N/A or Prefer Not to Answer
-
-    [[Question:MC:MultipleAnswer]]
-    You would feel comfortable asking your advisor for time off for...
-    [[Choices]]
-    Physical health challenges
-    Mental health challenges
-    Visiting/helping family
-    Vacation/free time
 
     [[Question:Matrix]]
     Please rate your agreement with the following statements based on your interactions with your PI in the past year.
@@ -77,9 +107,9 @@ Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is
     [[Question:Matrix]]
     Your committee meetings over the past year have been valuable for...
     [[Choices]]
-    Research Development
-    Career Development
-    Presentation Skills
+    Research development
+    Career development
+    Presentation skills
     Resolving conflict or disagreement with my advisor
     [[Answers]]
     1-Strongly Disagree
@@ -100,8 +130,23 @@ Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is
 
 
 [[Block:BIGSA and Social Events]]
+    #? I think these two questions are fine as-is but should be rolled into Communication and Community.
 
+    [[Question:MC:MultipleAnswer]]
+    What would make you more likely to attend future BIGSA events? Select all that apply:
+    [[Choices]]
+    I try to attend most events
+    I don't know about events
+    Nothing, I'm too busy to attend
+    I'm not interested in the events offered
+    Other (specify below)
 
+    [[Question:MC]]
+    In general, would you like to see more social events?
+    [[Choices]]
+    Yes
+    No
+    Unsure
 
 [[Block:Career Development]]
 
