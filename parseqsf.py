@@ -1,10 +1,12 @@
 """
-Command: ```python3 parseqsf.py {blank_survey.qsf} {gsss_questions.txt} {out.qsf}```
+Command: ```python3 parseqsf.py {gsss_questions.txt} {blank_survey.qsf} {out.qsf}```
 
 To use, make a new survey in Qualtrics, name it whatever you want, then go to Tools > Import/Export > Export Survey. 
 This should download a file with a .qsf extension. Use the path to that as input for this program (blank_survey.qsf above) as well as the .txt file where we've been writing our survey questions.
 This program will parse those questions and write them in a .qsf format (which is really just a JSON file with specific structure).
 If you don't specify an output file path (third arg) it will make a new file replacing the .txt with .qsf in the questions input.
+
+Update: switched the order of questions and blank_qsf & made it so that blank_qsf is not required.
 
 """
 import os
@@ -33,8 +35,7 @@ def setdict(dictionary, map_list, value):
 
 class Survey:
     def __init__(self, qsf, input_questions, keep_questions = False):
-        with open(qsf, "r") as input:
-            self.qsf = json.load(input)
+        self.qsf = qsf
         for item in self.qsf["SurveyEntry"]:
             name = item.replace("Survey","")
             self.__dict__[name] = self.qsf["SurveyEntry"][item]
@@ -270,8 +271,13 @@ class Survey:
             return self.info        
 
 
-def main(blank_qsf, input_questions, out_qsf = False):
-    blank_qsf = os.path.expanduser(blank_qsf)
+def main(input_questions, blank_qsf=False, out_qsf = False):
+    if blank_qsf:
+        blank_qsf = os.path.expanduser(blank_qsf)
+        with open(blank_qsf,"r") as input:
+            blank_qsf = json.load(input)
+    else:
+        blank_qsf = json.loads('''{"SurveyEntry":{"SurveyID":"SV_8uYCLiVlYVfp0Ee","SurveyName":"empty survey","SurveyDescription":null,"SurveyOwnerID":"UR_82hSeBo3AjuxM5U","SurveyBrandID":"ugeorgia","DivisionID":"DV_42V8qKI9A0TWwfj","SurveyLanguage":"EN","SurveyActiveResponseSet":"RS_5b4MXbkTJ9ytYmG","SurveyStatus":"Inactive","SurveyStartDate":"0000-00-00 00:00:00","SurveyExpirationDate":"0000-00-00 00:00:00","SurveyCreationDate":"2023-09-05 13:33:48","CreatorID":"UR_82hSeBo3AjuxM5U","LastModified":"2023-09-05 13:33:52","LastAccessed":"0000-00-00 00:00:00","LastActivated":"0000-00-00 00:00:00","Deleted":null},"SurveyElements":[{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"BL","PrimaryAttribute":"Survey Blocks","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":[{"Type":"Default","Description":"Default Question Block","ID":"BL_difdaPHqcsix9TU","BlockElements":[{"Type":"Question","QuestionID":"QID1"}]},{"Type":"Trash","Description":"Trash \/ Unused Questions","ID":"BL_2cbDhi6RmHXbnF4"}]},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"FL","PrimaryAttribute":"Survey Flow","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"Flow":[{"ID":"BL_difdaPHqcsix9TU","Type":"Block","FlowID":"FL_2"}],"Properties":{"Count":2},"FlowID":"FL_1","Type":"Root"}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"PL","PrimaryAttribute":"Preview Link","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"PreviewType":"Brand","PreviewID":"d49ee847-c5fd-4bdd-bba8-ae2e1dc499de"}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"SO","PrimaryAttribute":"Survey Options","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"BackButton":"false","SaveAndContinue":"true","SurveyProtection":"PublicSurvey","BallotBoxStuffingPrevention":"false","NoIndex":"Yes","SecureResponseFiles":"true","SurveyExpiration":"None","SurveyTermination":"DefaultMessage","Header":"","Footer":"","ProgressBarDisplay":"None","PartialData":"+1 week","ValidationMessage":"","PreviousButton":"","NextButton":"","SurveyTitle":"Qualtrics Survey | Qualtrics Experience Management","SkinLibrary":"ugeorgia","SkinType":"MQ","Skin":"skin1_new","NewScoring":1,"SurveyMetaDescription":"The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"SCO","PrimaryAttribute":"Scoring","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"ScoringCategories":[],"ScoringCategoryGroups":[],"ScoringSummaryCategory":null,"ScoringSummaryAfterQuestions":0,"ScoringSummaryAfterSurvey":0,"DefaultScoringCategory":null,"AutoScoringCategory":null}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"PROJ","PrimaryAttribute":"CORE","SecondaryAttribute":null,"TertiaryAttribute":"1.1.0","Payload":{"ProjectCategory":"CORE","SchemaVersion":"1.1.0"}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"STAT","PrimaryAttribute":"Survey Statistics","SecondaryAttribute":null,"TertiaryAttribute":null,"Payload":{"MobileCompatible":true,"ID":"Survey Statistics"}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"QC","PrimaryAttribute":"Survey Question Count","SecondaryAttribute":"1","TertiaryAttribute":null,"Payload":null},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"SQ","PrimaryAttribute":"QID1","SecondaryAttribute":"Click to write the question text","TertiaryAttribute":null,"Payload":{"QuestionText":"Click to write the question text","DataExportTag":"Q1","QuestionType":"MC","Selector":"SAVR","SubSelector":"TX","Configuration":{"QuestionDescriptionOption":"UseText"},"QuestionDescription":"Click to write the question text","Choices":{"1":{"Display":"Click to write Choice 1"},"2":{"Display":"Click to write Choice 2"},"3":{"Display":"Click to write Choice 3"}},"ChoiceOrder":["1","2","3"],"Validation":{"Settings":{"ForceResponse":"OFF","Type":"None"}},"Language":[],"NextChoiceId":4,"NextAnswerId":1,"QuestionID":"QID1"}},{"SurveyID":"SV_8uYCLiVlYVfp0Ee","Element":"RS","PrimaryAttribute":"RS_5b4MXbkTJ9ytYmG","SecondaryAttribute":"Default Response Set","TertiaryAttribute":null,"Payload":null}]}''')
     input_questions = os.path.expanduser(input_questions)
     if not out_qsf: out_qsf = input_questions.replace(".txt",".qsf")
     else: out_qsf = os.path.expanduser(out_qsf)
