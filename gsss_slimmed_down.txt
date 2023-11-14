@@ -69,11 +69,12 @@
 
 [[Block:Overall Satisfaction]]
 
-    [[Question:Matrix]]
-    How often has each of these caused you distress in the past year?
+    [[Question:MC:MultipleAnswer]]
+    Which of the following factors has caused you distress in the past year (if any)?
     [[Choices]]
+    N/A, none of the following has caused me distress in the past year
     Work-life balance
-    Career path (e.g., availability of desired positions, transitioning to future career, uncertainty about value of degree)
+    Uncertainty around future career
     Personal financial issues
     Funding for research
     Physical health
@@ -81,30 +82,20 @@
     Political landscape
     Missing home/Culture shock
     Other
-    [[Answers]]
-    1-Never
-    2-Rarely
-    3-Sometimes
-    4-Often
-    5-Always
 
     [[Question:MC:MultipleAnswer]] – change to above questions
     Which of the following factors have led you to consider leaving your graduate program in the past year (if any)?
     [[Choices]]
     N/A, I didn't consider leaving my graduate program in the past year.
     Work-life balance
-    Career path
+    Uncertainty around future career
     Personal financial issues
-    Grant funding
-    Availability of desired career positions
-    Uncertainty about value of degree
-    Transitioning to future career
+    Funding for research
     Physical health
     Mental health
     Political landscape
-    Imposter syndrome
     Missing home/Culture shock
-    Other (specify below)
+    Other
 
     [[Question:Matrix]]
     In the last year, how satisfied have you been with each of the following aspects of your degree program?
@@ -112,7 +103,7 @@
     Quality of graduate coursework
     Professional relationship with dissertation advisor
     Departmental career development or training opportunities
-    Level of financial support for research 
+    Financial support for research, training, or conferences
     Communication within IOB
     Stipend covering living expenses
     Infrastructure (Sapelo2, accessibility to space, equipment, etc)
@@ -250,37 +241,36 @@
 
     [[PageBreak]]
 
-    [[Question:Matrix]]
-    How often do you make use of the following resources when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
+    [[Question:MC:MultipleAnswer]]
+    Which of the following resources do you use when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
     [[Choices]]
     Fellow graduate students
     Advisor/PI
     IOB staff
     Faculty Graduate Coordinator
     Thesis committee or other faculty
+    Course materials from BINF 8001 Graduate Professional Development
     UGA websites (graduate school, health center, others)
     IOB website/student handbook
     Other (specify below)
-    [[Answers]]
-    1-Never
-    2-Rarely
-    3-Sometimes
-    4-Often
-    5-Always
-
-
 
 
 [[Block:Mentorship]]
+    [[Question:MC:MultipleAnswer]]
+    Your meetings with your advisor...
+    [[Choices]]
+    Occur at a frequency you're satisfied with
+    Are meaningful and productive
+    Neither of the above
 
     [[Question:Matrix]]
     Your advisor is providing you with reasonable and satisfactory...
     [[Choices]]
     Communication
     Expectations
-    Opportunities to meet with them
     Training and supplies
     Research autonomy
+    Office space and equipment
     [[Answers]]
     1-Strongly Disagree
     2-Disagree
@@ -324,13 +314,12 @@
 
 [[Question:Matrix]]
 Please rate your agreement with the following statements:
+The IOB core curriculum...
 [[Choices]]
-The IOB core curriculum has challenged me to think critically about bioinformatics.
-The IOB core curriculum included enough background in biological concepts.
-The IOB core curriculum included enough background in computational skills.
-The IOB core curriculum included enough background in data analysis.
-The skills and concepts I learned in IOB classes prepared me for my current research.
-The skills and concepts I learned in IOB classes prepared me for my future career.
+has challenged me to think critically about bioinformatics.
+included enough background in biological concepts.
+included enough background in computational skills.
+included enough background in data analysis.
 [[Answers]]
 1-Strongly Disagree
 2-Disagree
@@ -340,11 +329,11 @@ The skills and concepts I learned in IOB classes prepared me for my future caree
 N/A
 
 [[Question:Matrix]]
-Please rate your agreement with the following statements.
+Please rate your agreement with the following statements:
+The skills and concepts I learned in IOB classes prepared me for...
 [[Choices]]
-One or more of the IOB electives were relevant to my research/goals.
-One or more of the other electives were relevant to my research/goals.
-The courses I would be interested in taking were not available in IOB or other departments.
+my current research.
+my future career.
 [[Answers]]
 1-Strongly Disagree
 2-Disagree
@@ -352,6 +341,14 @@ The courses I would be interested in taking were not available in IOB or other d
 4-Agree
 5-Strongly Agree
 N/A
+
+[[Question:MC:MultipleAnswer]]
+Which of the following statements do you agree with?
+[[Choices]]
+One or more of the IOB electives were relevant to my research/goals.
+One or more of the other electives were relevant to my research/goals.
+The courses I would be interested in taking were not available in IOB or other departments.
+None of the above
 
 [[Block:Communication and Community]]
 
