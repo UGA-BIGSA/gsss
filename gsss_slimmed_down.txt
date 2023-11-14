@@ -322,11 +322,57 @@
 
 [[Block:Coursework]]
 
+[[Question:Matrix]]
+Please rate your agreement with the following statements:
+[[Choices]]
+The IOB core curriculum has challenged me to think critically about bioinformatics.
+The IOB core curriculum included enough background in biological concepts.
+The IOB core curriculum included enough background in computational skills.
+The IOB core curriculum included enough background in data analysis.
+The skills and concepts I learned in IOB classes prepared me for my current research.
+The skills and concepts I learned in IOB classes prepared me for my future career.
+[[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A
 
+[[Question:Matrix]]
+Please rate your agreement with the following statements.
+[[Choices]]
+One or more of the IOB electives were relevant to my research/goals.
+One or more of the other electives were relevant to my research/goals.
+The courses I would be interested in taking were not available in IOB or other departments.
+[[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A
 
 [[Block:Communication and Community]]
 
-
+[[Question:Matrix]]
+In the past year, I have received enough information from IOB about the following topics: 
+[[Choices]]
+IOB events
+Dissertations
+Seminars
+New hires
+Awards received
+Job openings
+Grant opportunities
+Conferences
+[[Answers]]
+1-Strongly Disagree
+2-Disagree
+3-Neither Agree or Disagree
+4-Agree
+5-Strongly Agree
+N/A
 
 [[Block:BIGSA and Social Events]]
     #? I think these two questions are fine as-is but should be rolled into Communication and Community.
