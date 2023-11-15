@@ -353,89 +353,82 @@
 
 
 [[Block:Coursework]]
-
-[[Question:Matrix]]
-Please rate your agreement with the following statements:
-The IOB core curriculum...
-[[Choices]]
-has challenged me to think critically about bioinformatics.
-included enough background in biological concepts.
-included enough background in computational skills.
-included enough background in data analysis.
-[[Answers]]
-1-Strongly Disagree
-2-Disagree
-3-Neither Agree or Disagree
-4-Agree
-5-Strongly Agree
-N/A
-
-[[Question:Matrix]]
-Please rate your agreement with the following statements:
-The skills and concepts I learned in IOB classes prepared me for...
-[[Choices]]
-my current research.
-my future career.
-[[Answers]]
-1-Strongly Disagree
-2-Disagree
-3-Neither Agree or Disagree
-4-Agree
-5-Strongly Agree
-N/A
-
-[[Question:MC:MultipleAnswer]]
-Which of the following statements do you agree with?
-[[Choices]]
-One or more of the IOB electives were relevant to my research/goals.
-One or more of the other electives were relevant to my research/goals.
-The courses I would be interested in taking were not available in IOB or other departments.
-None of the above
+    
+    [[Question:Matrix]]
+    Please rate your agreement with the following statements:
+    The IOB core curriculum...
+    [[Choices]]
+    has challenged me to think critically about bioinformatics.
+    included enough background in biological concepts.
+    included enough background in computational skills.
+    included enough background in data analysis.
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A
+    
+    [[Question:Matrix]]
+    Please rate your agreement with the following statements:
+    The skills and concepts I learned in IOB classes prepared me for...
+    [[Choices]]
+    my current research.
+    my future career.
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A
+    
+    [[Question:MC:MultipleAnswer]]
+    Which of the following statements do you agree with?
+    [[Choices]]
+    One or more of the IOB electives were relevant to my research/goals.
+    One or more of the other electives were relevant to my research/goals.
+    The courses I would be interested in taking were not available in IOB or other departments.
+    None of the above
 
 [[Block:Communication and Community]]
-
-[[Question:Matrix]]
-In the past year, I have received enough information from IOB about the following topics: 
-[[Choices]]
-IOB events
-Dissertations
-Seminars
-New hires
-Awards received
-Job openings
-Grant opportunities
-Conferences
-[[Answers]]
-1-Strongly Disagree
-2-Disagree
-3-Neither Agree or Disagree
-4-Agree
-5-Strongly Agree
-N/A
-
-[[Block:BIGSA and Social Events]]
-    #? I think these two questions are fine as-is but should be rolled into Communication and Community.
+    
+    [[Question:Matrix]]
+    In the past year, I have received enough information from IOB about the following topics: 
+    [[Choices]]
+    IOB events
+    Dissertations
+    Seminars
+    New hires
+    New course offerings
+    Job openings
+    Funding opportunities
+    Conferences and workshops
+    [[Answers]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+    N/A
 
     [[Question:MC:MultipleAnswer]]
-    What would make you more likely to attend future BIGSA events? Select all that apply:
+    What would you like to see more of from BIGSA? Select all that apply:
     [[Choices]]
-    I try to attend most events
-    I don't know about events
-    Nothing, I'm too busy to attend
-    I'm not interested in the events offered
+    More events
+    Different kinds of events
+    More communication about events
+    Events with food/drinks
+    Activities that are paid for by IOB
     Other (specify below)
 
-    [[Question:MC]]
-    In general, would you like to see more social events?
-    [[Choices]]
-    Yes
-    No
-    Unsure
+    #? Add a question about specific travel related information
 
 [[Block:Career Development]]
 
-    [[Question:Matrix]]
-    How interested would you be in working in the following sectors?
+    [[Question:MC:MultipleAnswer]]
+    Which of the following sectors are you interested in working in?
     [[Choices]]
     Academic (Research Focus)
     Academic (Teaching Focus)
@@ -443,21 +436,13 @@ N/A
     Agricultural Industry
     Pharmaceutical Industry
     Healthcare Industry
-    Other Industry
     Science Communication
     Nonprofit Research Institute
     Science Policy
     Consulting
     National Labs
     State Labs
-    Unsure
     Other (specify below)
-    [[Answers]]
-    1-Disinterested
-    2-Somewhat disinterested
-    3-Neither interested nor disinterested
-    4-Somewhat interested
-    5-Interested
 
     [[Question:MC:MultipleAnswer]]
     What kind of career development resources and opportunities would be helpful to you?
@@ -470,22 +455,20 @@ N/A
     IOB-hired professional headhunter to assist in job preparation and placement
     Other (specify below)
 
-
-    [[Question:Matrix]]
-    Please rate your agreement with the following statements:
+    [[Question:MC:MultipleAnswer]]
+    Which of the following barriers prevent you from attending conferences/workshops that you are interested in?
     [[Choices]]
-    I am able to attend most conferences and/or workshops I am interested in
-    I have financial support to attend non-scientific networking/training events
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neither Agree or Disagree
-    4-Agree
-    5-Strongly Agree
-    N/A
-
-    [[Question:TE]]
-    What types of career development opportunities in IOB would you like to see in the future? 
+    No virtual option
+    Lack of financial support
+    Inability to travel (e.g. visa restrictions)
+    Lack of PI support
+    Conference location
+    Family obligations
+    Research obligations
+    Course obligations
+    Lack of awareness about available conferences/workshops
+    N/A, I attend all the conferences/workshops I'm interested in
+    Other (specify below)
 
     [[Question:MC:MultipleAnswer]]
     In the past year, my funding has come from the following sources:
@@ -500,6 +483,7 @@ N/A
     Teaching assistantship (other department)
     No funding support
     Unsure
+    Other (specify below)
 
 [[Block:Wellbeing]]
 
@@ -519,7 +503,8 @@ N/A
     [[Question:MC:MultipleAnswer]]
     In the past year, how many of the following have you used your personal funds for, without reimbursement?
     [[Choices]]
-    Office/Lab supplies
+    Office supplies
+    Lab supplies
     Classroom supplies
     Conference costs
     Research-related software
@@ -553,6 +538,18 @@ N/A
     3-Sometimes
     4-Often
     5-Always
+
+    [[Question:MC:MultipleAnswer]]
+    Which of the following activities have you been unable to keep up with because you haven't had time outside of academic and research commitments?
+    [[Choices]]
+    Spending time with family
+    Exercise
+    Volunteering, advocacy, and outreach
+    Preparing meals
+    Socializing outside of work
+    Attending cultural events and religious observances
+    Hobbies or other activities you enjoy
+    None of the above
 
     [[Question:MC:SingleAnswer:Horizontal]]
     In the past year, how would you rate your mental and emotional health?
