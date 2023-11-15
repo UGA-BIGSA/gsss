@@ -65,6 +65,59 @@
 
 [[Block: Recruitment]]
 
+[[Question:MC]]
+How were you recruited/admitted to IOB?
+[[Choices]]
+Through ILS
+Through IPS
+Direct admission
+Other (specify below)
+
+[[Question:Matrix]]
+How well were program expectations (eg registration, class requirements, etc) explained to you by the department?
+[[Choices]]
+Before you joined
+After joining
+[[Answers]]
+1-Very Poorly
+2-Poorly
+3-Acceptably
+4-Well
+5-Very Well
+
+[[Question:MC:MultipleAnswer]]
+Why did you join the Institute of Bioinformatics?
+[[Choices]]
+My PI suggested it
+Expected degree for my future career
+Course requirements
+Milestone timeline (eg graduation, comprehensive exams)
+Comprehensive exam format
+Reccomendation from current students/faculty
+General department/community
+Other (specify below)
+
+
+[[Question:MC]]
+When did you begin to consider joining the Institute of Bioinformatics at UGA?
+[[Choices]]
+Before applying to UGA
+During ILS/IPS interviews
+After being accepted to UGA but before the fall semester
+During ILS/IPS fall semester welcome events
+During rotations
+Other (specify below)
+
+
+[[Question:MC]]
+When did you discover the lab you ended up joining?
+[[Choices]]
+Before applying to UGA
+During ILS/IPS interviews
+After being accepted to UGA but before the fall semester
+During ILS/IPS fall semester welcome events
+During rotations
+Other (specify below)
 
 
 [[Block:Overall Satisfaction]]
