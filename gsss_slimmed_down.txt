@@ -158,67 +158,6 @@
     4-Satisfied
     5-Very Satisfied
 
-    [[PageBreak]]
-
-    [[Question:MC]]
-    Are you aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct?
-    [[Choices]]
-    Yes, and I would feel comfortable using them
-    Yes, but I wouldn't feel comfortable using them
-    No
-    Unsure
-
-    [[Question:Matrix]]
-    How comfortable would you feel with reporting an incident of harassment, discrimination, or other forms of unethical conduct to each of the following?
-    [[Choices]]
-    My PI
-    My committee
-    The director of IOB
-    Faculty graduate coordinator
-    Other PIs in IOB
-    IOB staff
-    Other graduate students
-    [[Answers]]
-    1-Very Uncomfortable
-    2-Uncomfortable
-    3-Neither Uncomfortable or Comfortable
-    4-Comfortable
-    5-Very Comfortable
-
-    [[PageBreak]]
-
-    [[Question:Text]]
-    UGA defines discrimination as:
-    Decision-making based on race, color, sex (including pregnancy), sexual orientation, gender identity, ethnicity or national origin, religion, age, genetic information, disability, or veteran status.
-    (https://eoo.uga.edu/policies/non-discrimination-anti-harassment-policy)
-    
-    If you have experienced harassment or discrimination in IOB please consider reporting this to your PI, one of your committee members, or the graduate coordinator. See IOB reporting procedure <a href=https://iob.uga.edu/diversity/#.ZD8CJOzMKBQ>here</a>.
-
-    If you have experienced harassment or discrimination at UGA and do not want to report using departmental procedure please consider contacting the UGA Compliance, Ethics and Reporting hotline <a href=https://legal.uga.edu/guidance/compliance-ethics-reporting-hotline>here</a>.
-
-    If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/who-should-i-talk-to/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
-
-    If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
-
-    [[Question:Matrix]]
-    In the last year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
-    [[Choices]]
-    Race/Ethnicity
-    Gender
-    Sexual orientation
-    Religion
-    Age
-    Accent/dialect
-    National origin
-    Disability
-    Socioeconomic/income level
-    Veteran status
-    [[Answers]]
-    1-Never
-    2-Rarely
-    3-Sometimes
-    4-Often
-    5-Always
 
     [[PageBreak]]
 
@@ -281,8 +220,6 @@
     5-Strongly Agree
     N/A
 
-    [[PageBreak]]
-
     [[Question:MC:MultipleAnswer]]
     Which of the following resources do you use when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
     [[Choices]]
@@ -296,6 +233,91 @@
     IOB website/student handbook
     Other (specify below)
 
+    [[Block:DEI]]
+
+    [[Question:MC]]
+    Are you aware of departmental procedure for reporting harassment, discrimination, or other forms of unethical conduct?
+    [[Choices]]
+    Yes, and I would feel comfortable using them
+    Yes, but I wouldn't feel comfortable using them
+    No
+    Unsure
+
+    [[Question:Matrix]]
+    How comfortable would you feel with reporting an incident of harassment, discrimination, or other forms of unethical conduct to each of the following?
+    [[Choices]]
+    My PI
+    My committee
+    The director of IOB
+    Faculty graduate coordinator
+    Other PIs in IOB
+    IOB staff
+    Other graduate students
+    [[Answers]]
+    1-Very Uncomfortable
+    2-Uncomfortable
+    3-Neither Uncomfortable or Comfortable
+    4-Comfortable
+    5-Very Comfortable
+
+    [[PageBreak]]
+
+    [[Question:Text]]
+    UGA defines discrimination as:
+    Decision-making based on race, color, sex (including pregnancy), sexual orientation, gender identity, ethnicity or national origin, religion, age, genetic information, disability, or veteran status.
+    (https://eoo.uga.edu/policies/non-discrimination-anti-harassment-policy)
+    
+    If you have experienced harassment or discrimination in IOB please consider reporting this to your PI, one of your committee members, or the graduate coordinator. See IOB reporting procedure <a href=https://iob.uga.edu/diversity/#.ZD8CJOzMKBQ>here</a>.
+
+    If you have experienced harassment or discrimination at UGA and do not want to report using departmental procedure please consider contacting the UGA Compliance, Ethics and Reporting hotline <a href=https://legal.uga.edu/guidance/compliance-ethics-reporting-hotline>here</a>.
+
+    If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/who-should-i-talk-to/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
+
+    If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
+
+    [[Question:Matrix]]
+    In the last year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
+    [[Choices]]
+    Race/Ethnicity
+    Gender
+    Sexual orientation
+    Religion
+    Age
+    Accent/dialect
+    National origin
+    Disability
+    Socioeconomic/income level
+    Veteran status
+    [[Answers]]
+    1-Never
+    2-Rarely
+    3-Sometimes
+    4-Often
+    5-Always
+
+    [[Question:MC:SingleAnswer:Horizontal]]
+    Rate your agreement with the following statement: I feel like I belong in the Institute of Bioinformatics (IOB).
+    [[Choices]]
+    1-Strongly Disagree
+    2-Disagree
+    3-Neither Agree or Disagree
+    4-Agree
+    5-Strongly Agree
+
+    [[Question:Matrix]]
+    In the last year, how often have you felt that your contributions are valued...
+    [[Choices]]
+    in your lab.
+    among other graduate students.
+    in the Institute of Bioinformatics (IOB).
+    at UGA.
+    [[Answers]]
+    1-Never
+    2-Rarely
+    3-Sometimes
+    4-Often
+    5-Always
+    
 
 [[Block:Mentorship]]
     [[Question:MC:MultipleAnswer]]
@@ -327,6 +349,7 @@
     I feel comfortable advocating for myself when interacting with my advisor.
     My advisor is supportive of my academic and professional goals.
     My advisor is receptive to my needs as a person, not just a researcher.
+    My advisor respects and values my input and opinion.
     [[Answers]]
     1-Strongly Disagree
     2-Disagree
