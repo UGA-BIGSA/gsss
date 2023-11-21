@@ -203,8 +203,8 @@
     4-Satisfied
     5-Very Satisfied
 
-    [[Question:Matrix]]
-    Please rate your agreement with the following statements about your progress toward degree completion.
+    [[Question:MC:MultipleAnswer]]
+    Please select the following statements if they apply to you:
     [[Choices]]
     I am aware of the requirements of the graduate program to graduate
     I feel confident I will graduate
@@ -212,13 +212,7 @@
     I am confident that my career prospects are good
     I will be prepared for a career when I receive my degree
     I have seriously considered leaving the program
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neutral
-    4-Agree
-    5-Strongly Agree
-    N/A
+    None of the above
 
     [[Question:MC:MultipleAnswer]]
     Which of the following resources do you use when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
@@ -304,19 +298,14 @@
     4-Agree
     5-Strongly Agree
 
-    [[Question:Matrix]]
-    In the last year, how often have you felt that your contributions are valued...
+    [[Question:MC:MultipleAnswer]]
+    In the last year, where have you felt your contributions are valued?
     [[Choices]]
     in your lab.
     among other graduate students.
     in the Institute of Bioinformatics (IOB).
     at UGA.
-    [[Answers]]
-    1-Never
-    2-Rarely
-    3-Sometimes
-    4-Often
-    5-Always
+    None of the above
     
 
 [[Block:Mentorship]]
@@ -327,7 +316,7 @@
     Are meaningful and productive
     Neither of the above
 
-    [[Question:Matrix]]
+    [[Question:MC:MultipleAnswer]]
     Your advisor is providing you with reasonable and satisfactory...
     [[Choices]]
     Communication
@@ -335,44 +324,27 @@
     Training and supplies
     Research autonomy
     Office space and equipment
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neither Agree or Disagree
-    4-Agree
-    5-Strongly Agree
-    N/A or Prefer Not to Answer
+    None of the above
 
-    [[Question:Matrix]]
-    Please rate your agreement with the following statements based on your interactions with your PI in the past year.
+    [[Question:MC:MultipleAnswer]]
+    Please select the following statements if they are true of your relationship with your advisor.
     [[Choices]]
     I feel comfortable advocating for myself when interacting with my advisor.
     My advisor is supportive of my academic and professional goals.
     My advisor is receptive to my needs as a person, not just a researcher.
     My advisor respects and values my input and opinion.
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neither Agree or Disagree
-    4-Agree
-    5-Strongly Agree
-    N/A or Prefer Not to Answer
+    None of the above
 
 
-    [[Question:Matrix]]
+    [[Question:MC:MultipleAnswer]]
     Your committee meetings over the past year have been valuable for...
     [[Choices]]
     Research development
     Career development
     Presentation skills
     Resolving conflict or disagreement with my advisor
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neither Agree or Disagree
-    4-Agree
-    5-Strongly Agree
-    N/A
+    None of the above
+    Not applicable 
 
 
 [[Block:Coursework]]
@@ -416,8 +388,8 @@
     None of the above
 
 [[Block:Communication and Community]]
-    
-    [[Question:Matrix]]
+
+    [[Question:MC:MultipleAnswer]]
     In the past year, I have received enough information from IOB about the following topics: 
     [[Choices]]
     IOB events
@@ -428,13 +400,7 @@
     Job openings
     Funding opportunities
     Conferences and workshops
-    [[Answers]]
-    1-Strongly Disagree
-    2-Disagree
-    3-Neither Agree or Disagree
-    4-Agree
-    5-Strongly Agree
-    N/A
+    None of the above
 
     [[Question:MC:MultipleAnswer]]
     What would you like to see more of from BIGSA? Select all that apply:
