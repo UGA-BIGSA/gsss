@@ -229,9 +229,10 @@ class Survey:
                 }
             }
             Payload = getdict(self.info,["Payload"])
-            if qtype == "DB":
-                text = "<br>".join([line.strip() for line in question_text.split("\n")[1:]])
-                Payload["QuestionText"] = text
+            text = "\n".join(question_text.split("\n")[1:])
+            text = text.split("[[")[0].strip().split("\n")
+            text = "<br>".join([line.strip() for line in text])
+            Payload["QuestionText"] = text
         
             if qtype == "CS" or qtype == "MC": Payload["SubSelector"] = "TX"
             elif qtype == "Matrix": Payload["SubSelector"] = "SingleAnswer"
