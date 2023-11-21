@@ -405,7 +405,17 @@
     Activities that are paid for by IOB
     Other (specify below)
 
-    #? Add a question about specific travel related information
+    [[Question:MC:MultipleAnswer]]
+    I feel confident in my knowledge of the following concepts for traveling on university-related business:
+    [[Choices]]
+    The amount of funding available from my lab, IOB, and/or the graduate school 
+    Completing a travel authorization (TA) 
+    Which expenses must be initially paid for by the student vs. IOB 
+    Which expenses can be reimbursed (e.g., per diem, incidentals, mileage, transportation, etc.) 
+    Booking a hotel 
+    Reserving a rental car 
+    Completing expense reports
+    None of the above
 
 [[Block:Career Development]]
 
