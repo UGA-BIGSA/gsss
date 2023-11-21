@@ -183,18 +183,11 @@
     Please rate your satisfaction with the following aspects of your lab:
     [[Choices]]
     Relationship with PI
-    Relationship with other lab members of the lab
     Lab culture and dynamics
     Funding
     Research topic
     Day-to-day research experience
-    Communication and expectations
-    Conferences, travel, and networking opportunities
-    Training opportunities (internships, workshops, etc)
-    Time for coursework and degree requirements (proposal writing, etc)
-    Time for outreach activities and student organizations
-    Access to equipment, software, and other resources
-    Lab/office space
+    Time for coursework and non-research activities
     Other (specify below)
     [[Answers]]
     1-Very Dissatisfied
