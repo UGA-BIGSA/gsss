@@ -383,7 +383,7 @@
 [[Block:Communication and Community]]
 
     [[Question:MC:MultipleAnswer]]
-    In the past year, I have received enough information from IOB about the following topics: 
+    Which of the following would you like to receive more communcation about from IOB?
     [[Choices]]
     IOB events
     Dissertations
