@@ -15,7 +15,7 @@
     Career Development
     Wellbeing 
     
-    We welcome your comments at the end of each section.
+    We welcome your comments at the end of the survey.
     Please keep your comments professional and constructive.
     
     Concerns regarding anonymity: The IOB Student Programs Manager (April Mosley) is the only individual with unrestricted access to survey data. Restricted access is given to BIGSA board members and the Advising Graduate Coordinator. These restrictions prevent viewing individual responses and cross-tabulation of data to identify respondents.
@@ -435,8 +435,7 @@
     Nonprofit Research Institute
     Science Policy
     Consulting
-    National Labs
-    State Labs
+    National or State Labs
     Other (specify below)
 
     [[Question:MC:MultipleAnswer]]
