@@ -287,10 +287,10 @@
     [[Choices]]
     I feel like I belong in the Institute of Bioinformatics (IOB).
     I feel valued as an individual in the IOB.
+    I feel as though I have to work harder than my colleagues to be treated fairly.
+    I feel that I have to work harder than others to be perceived as a legitimate scholar in IOB.
     I have found one or more communities, groups, or spaces at UGA where I feel welcome.
     I have found one or more communities, groups, or spaces at UGA where I feel marginalized or excluded.
-    I feel as though I have to work harder than my colleagues to be treated fairly.
-    I have to work harder than others to be perceived as a legitimate scholar in IOB.
     In the IOB, people are sometimes rejected for being different.
     In the IOB, it is easy to discuss difficult issues and problems.
     
@@ -409,7 +409,7 @@
     Other (specify below)
 
     [[Question:MC:MultipleAnswer]]
-    I feel confident in my knowledge of the following concepts for traveling on university-related business:
+    I feel confident in my knowledge of the following university-related travel topics:
     [[Choices]]
     The amount of funding available from my lab, IOB, and/or the graduate school 
     Completing a travel authorization (TA) 
