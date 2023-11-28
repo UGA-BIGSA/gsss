@@ -260,7 +260,7 @@
 
     If you have experience sexual harassment you can seek help and guidance with the <a href=https://healthcenter.uga.edu/who-should-i-talk-to/>Relationship and Sexual Violence Prevention (RSVP) Office at the University Health Center</a>.
 
-    If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
+    If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://ombuds.uga.edu/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
 
     [[Question:Matrix]]
     In the past year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
