@@ -140,7 +140,7 @@
     Other
 
     [[Question:Matrix]]
-    In the last year, how satisfied have you been with each of the following aspects of your degree program?
+    In the past year, how satisfied have you been with each of the following aspects of your degree program?
     [[Choices]]
     Quality of graduate coursework
     Professional relationship with dissertation advisor
@@ -180,7 +180,7 @@
     5-Very Likely
 
     [[Question:Matrix]]
-    Please rate your satisfaction with the following aspects of your lab:
+    Please rate your satisfaction with the following aspects of your lab  in the past year:
     [[Choices]]
     Relationship with PI
     Lab culture and dynamics
@@ -204,11 +204,11 @@
     I have a timeline for my graduation
     I am confident that my career prospects are good
     I will be prepared for a career when I receive my degree
-    I have seriously considered leaving the program
+    I have seriously considered leaving the program in the past year
     None of the above
 
     [[Question:MC:MultipleAnswer]]
-    Which of the following resources do you use when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
+    In the past year, which of the following resources have you used when looking for information on how to navigate the graduate program or resolve non-research issues you are facing?
     [[Choices]]
     Fellow graduate students
     Advisor/PI
@@ -263,7 +263,7 @@
     If you have experienced harassment or discrimination and are unsure what resources are appropriate, you can <a href=https://eoo.uga.edu/Meet-the-Ombudspersons/>contact a UGA ombudsperson</a>. Ombudspersons are designated individuals who serve as independent, neutral and informal resources for UGA students, faculty and staff.
 
     [[Question:Matrix]]
-    In the last year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
+    In the past year, how often have you felt discriminated against at this university because of each of the personal characteristics below?
     [[Choices]]
     Race/Ethnicity
     Gender
@@ -295,7 +295,7 @@
     In the IOB, it is easy to discuss difficult issues and problems.
     
     [[Question:MC:MultipleAnswer]]
-    In the last year, where have you felt your contributions are valued?
+    In the past year, where have you felt your contributions are valued?
     [[Choices]]
     in your lab.
     among other graduate students.
@@ -306,14 +306,14 @@
 
 [[Block:Mentorship]]
     [[Question:MC:MultipleAnswer]]
-    Your meetings with your advisor...
+    In the past year, your meetings with your advisor...
     [[Choices]]
-    Occur at a frequency you're satisfied with
-    Are meaningful and productive
+    Occured at a frequency you're satisfied with
+    Were meaningful and productive
     Neither of the above
 
     [[Question:MC:MultipleAnswer]]
-    Your advisor is providing you with reasonable and satisfactory...
+    In the past year, your advisor has provided you with reasonable and satisfactory...
     [[Choices]]
     Communication
     Expectations
@@ -323,7 +323,7 @@
     None of the above
 
     [[Question:MC:MultipleAnswer]]
-    Please select the following statements if they are true of your relationship with your advisor.
+    Please select the following statements if they are true of your relationship with your advisor in the past year.
     [[Choices]]
     I feel comfortable advocating for myself when interacting with my advisor.
     My advisor is supportive of my academic and professional goals.
@@ -333,7 +333,7 @@
 
 
     [[Question:MC:MultipleAnswer]]
-    Your committee meetings over the past year have been valuable for...
+    Your committee meetings in the past year have been valuable for...
     [[Choices]]
     Research development
     Career development
@@ -347,7 +347,7 @@
     
     [[Question:Matrix]]
     Please rate your agreement with the following statements:
-    The IOB core curriculum...
+    In the past year, the IOB core curriculum...
     [[Choices]]
     has challenged me to think critically about bioinformatics.
     included enough background in biological concepts.
@@ -363,7 +363,7 @@
     
     [[Question:Matrix]]
     Please rate your agreement with the following statements:
-    The skills and concepts I learned in IOB classes prepared me for...
+    The skills and concepts I learned in IOB classes in the past year prepared me for...
     [[Choices]]
     my current research.
     my future career.
@@ -450,7 +450,7 @@
     Other (specify below)
 
     [[Question:MC:MultipleAnswer]]
-    Which of the following barriers prevent you from attending conferences/workshops that you are interested in?
+    Which of the following barriers have prevented you from attending conferences/workshops that you are interested in this the past year?
     [[Choices]]
     No virtual option
     Lack of financial support
@@ -505,7 +505,7 @@
     None of the above
 
     [[Question:ConstantSum]]
-    On average, how many total hours per week do you spend for each of the following activities?
+    On average, how many total hours per week have you spent on each of the following activities this past year?
     [[Choices]]
     Professional organizations and outreach activities
     Classwork
@@ -534,7 +534,7 @@
     5-Always
 
     [[Question:MC:MultipleAnswer]]
-    Which of the following activities have you been unable to keep up with because you haven't had time outside of academic and research commitments?
+    Which of the following activities have you been unable to keep up with this past year because you haven't had time outside of academic and research commitments?
     [[Choices]]
     Spending time with family
     Exercise
