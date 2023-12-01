@@ -386,7 +386,7 @@
 [[Block:Communication and Community]]
 
     [[Question:MC:MultipleAnswer]]
-    Which of the following would you like to receive more communcation about from IOB?
+    Which of the following would you like to receive more communication about from IOB?
     [[Choices]]
     IOB events
     Dissertations
